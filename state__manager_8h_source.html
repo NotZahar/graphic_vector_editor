@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GVEditor: Исходный файл libs/BigHelper/include/state_manager.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">GVEditor
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Макет графического векторного редактора</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_8036b8c85b3b75dd8d8dfc32c373f0ad.html">BigHelper</a></li><li class="navelem"><a class="el" href="dir_5008ca518424cb53f05610930c89f616.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">state_manager.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="state__manager_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef STATEMANAGER_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define STATEMANAGER_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;unordered_map&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="state_8h.html">state.h</a>&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceBigHelper.html">BigHelper</a> {</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classBigHelper_1_1StateManager.html">   10</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classBigHelper_1_1StateManager.html">StateManager</a> final {</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classBigHelper_1_1StateManager.html#a2e109904bea062e27181da97b132ee06">   12</a></span>&#160;        <span class="keyword">using</span> <a class="code" href="classBigHelper_1_1StateManager.html#a2e109904bea062e27181da97b132ee06">stateId_t</a> = int;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classBigHelper_1_1StateManager.html#a5f2abf32c0bb20438454a798cd4648c6">   14</a></span>&#160;        <a class="code" href="classBigHelper_1_1StateManager.html#a5f2abf32c0bb20438454a798cd4648c6">StateManager</a>(<span class="keyword">const</span> <a class="code" href="classBigHelper_1_1StateManager.html">StateManager</a>&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classBigHelper_1_1StateManager.html#a0d9e7e0f0f0d9f57a66a3772c0a35ff7">   15</a></span>&#160;        <a class="code" href="classBigHelper_1_1StateManager.html#a0d9e7e0f0f0d9f57a66a3772c0a35ff7">StateManager</a>(<a class="code" href="classBigHelper_1_1StateManager.html">StateManager</a>&amp;&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classBigHelper_1_1StateManager.html#a1d7b0cdfb5484a16afcec654f886912c">   16</a></span>&#160;        <a class="code" href="classBigHelper_1_1StateManager.html">StateManager</a>&amp; <a class="code" href="classBigHelper_1_1StateManager.html#a1d7b0cdfb5484a16afcec654f886912c">operator=</a>(<a class="code" href="classBigHelper_1_1StateManager.html">StateManager</a> <span class="keyword">const</span>&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classBigHelper_1_1StateManager.html#af0d26ee682c657912259d3ba54a74eae">   17</a></span>&#160;        <a class="code" href="classBigHelper_1_1StateManager.html">StateManager</a>&amp; <a class="code" href="classBigHelper_1_1StateManager.html#af0d26ee682c657912259d3ba54a74eae">operator=</a>(<a class="code" href="classBigHelper_1_1StateManager.html">StateManager</a> &amp;&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keyword">static</span> <a class="code" href="classBigHelper_1_1StateManager.html">StateManager</a>&amp; <a class="code" href="classBigHelper_1_1StateManager.html#ac88bd15726adf371bcafed847c121b02">instance</a>();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classBigHelper_1_1StateManager.html#aab3f2f144d5449d00ec5b2fc429d5cb0">   22</a></span>&#160;        <span class="keyword">static</span> <span class="keyword">inline</span> constexpr <a class="code" href="classBigHelper_1_1StateManager.html#a2e109904bea062e27181da97b132ee06">stateId_t</a> <a class="code" href="classBigHelper_1_1StateManager.html#aab3f2f144d5449d00ec5b2fc429d5cb0">INVALID_STATE_ID</a> = -1;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="classBigHelper_1_1StateManager.html">StateManager</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        ~<a class="code" href="classBigHelper_1_1StateManager.html">StateManager</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordtype">bool</span> stateExists(<a class="code" href="classBigHelper_1_1StateManager.html#a2e109904bea062e27181da97b132ee06">stateId_t</a> stateId) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordtype">void</span> addNewState(<a class="code" href="classBigHelper_1_1StateManager.html#a2e109904bea062e27181da97b132ee06">stateId_t</a> newStateId, std::unique_ptr&lt;State&gt; newState);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordtype">void</span> setStateAsCurrent(<a class="code" href="classBigHelper_1_1StateManager.html#a2e109904bea062e27181da97b132ee06">stateId_t</a> stateId);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        std::unordered_map&lt;stateId_t, std::unique_ptr&lt;State&gt;&gt; _states;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="classBigHelper_1_1StateManager.html#a2e109904bea062e27181da97b132ee06">stateId_t</a> _currentStateId;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    };</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// STATEMANAGER_H</span></div>
+<div class="ttc" id="aclassBigHelper_1_1StateManager_html"><div class="ttname"><a href="classBigHelper_1_1StateManager.html">BigHelper::StateManager</a></div><div class="ttdef"><b>Definition:</b> state_manager.h:10</div></div>
+<div class="ttc" id="aclassBigHelper_1_1StateManager_html_a0d9e7e0f0f0d9f57a66a3772c0a35ff7"><div class="ttname"><a href="classBigHelper_1_1StateManager.html#a0d9e7e0f0f0d9f57a66a3772c0a35ff7">BigHelper::StateManager::StateManager</a></div><div class="ttdeci">StateManager(StateManager &amp;&amp;)=delete</div></div>
+<div class="ttc" id="aclassBigHelper_1_1StateManager_html_a1d7b0cdfb5484a16afcec654f886912c"><div class="ttname"><a href="classBigHelper_1_1StateManager.html#a1d7b0cdfb5484a16afcec654f886912c">BigHelper::StateManager::operator=</a></div><div class="ttdeci">StateManager &amp; operator=(StateManager const &amp;)=delete</div></div>
+<div class="ttc" id="aclassBigHelper_1_1StateManager_html_a2e109904bea062e27181da97b132ee06"><div class="ttname"><a href="classBigHelper_1_1StateManager.html#a2e109904bea062e27181da97b132ee06">BigHelper::StateManager::stateId_t</a></div><div class="ttdeci">int stateId_t</div><div class="ttdef"><b>Definition:</b> state_manager.h:12</div></div>
+<div class="ttc" id="aclassBigHelper_1_1StateManager_html_a5f2abf32c0bb20438454a798cd4648c6"><div class="ttname"><a href="classBigHelper_1_1StateManager.html#a5f2abf32c0bb20438454a798cd4648c6">BigHelper::StateManager::StateManager</a></div><div class="ttdeci">StateManager(const StateManager &amp;)=delete</div></div>
+<div class="ttc" id="aclassBigHelper_1_1StateManager_html_aab3f2f144d5449d00ec5b2fc429d5cb0"><div class="ttname"><a href="classBigHelper_1_1StateManager.html#aab3f2f144d5449d00ec5b2fc429d5cb0">BigHelper::StateManager::INVALID_STATE_ID</a></div><div class="ttdeci">static constexpr stateId_t INVALID_STATE_ID</div><div class="ttdef"><b>Definition:</b> state_manager.h:22</div></div>
+<div class="ttc" id="aclassBigHelper_1_1StateManager_html_ac88bd15726adf371bcafed847c121b02"><div class="ttname"><a href="classBigHelper_1_1StateManager.html#ac88bd15726adf371bcafed847c121b02">BigHelper::StateManager::instance</a></div><div class="ttdeci">static StateManager &amp; instance()</div><div class="ttdef"><b>Definition:</b> state_manager.cpp:8</div></div>
+<div class="ttc" id="aclassBigHelper_1_1StateManager_html_af0d26ee682c657912259d3ba54a74eae"><div class="ttname"><a href="classBigHelper_1_1StateManager.html#af0d26ee682c657912259d3ba54a74eae">BigHelper::StateManager::operator=</a></div><div class="ttdeci">StateManager &amp; operator=(StateManager &amp;&amp;)=delete</div></div>
+<div class="ttc" id="anamespaceBigHelper_html"><div class="ttname"><a href="namespaceBigHelper.html">BigHelper</a></div><div class="ttdef"><b>Definition:</b> state.h:4</div></div>
+<div class="ttc" id="astate_8h_html"><div class="ttname"><a href="state_8h.html">state.h</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

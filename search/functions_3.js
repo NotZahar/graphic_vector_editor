@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['state_45',['State',['../classBigHelper_1_1State.html#a1b1dccdd895417378605f0f1a9585028',1,'BigHelper::State']]],
-  ['statemanager_46',['StateManager',['../classBigHelper_1_1StateManager.html#a5f2abf32c0bb20438454a798cd4648c6',1,'BigHelper::StateManager::StateManager(const StateManager &amp;)=delete'],['../classBigHelper_1_1StateManager.html#a0d9e7e0f0f0d9f57a66a3772c0a35ff7',1,'BigHelper::StateManager::StateManager(StateManager &amp;&amp;)=delete']]]
+  ['getcurrentstate_61',['getCurrentState',['../classUtility_1_1StateManager.html#a69de9d4e0a55c4377ff81bc210f3fe2a',1,'Utility::StateManager']]],
+  ['getstateid_62',['getStateId',['../classUtility_1_1State.html#ab44d43a34ad503a38f3cd95feac4801a',1,'Utility::State']]]
 ];

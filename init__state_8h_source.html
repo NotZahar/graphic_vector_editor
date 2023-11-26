@@ -74,23 +74,22 @@ $(function() {
 <a href="init__state_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef INIT_STATE_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define INIT_STATE_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="state_8h.html">state.h</a>&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="state_8h.html">states/state.h</a>&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceGVEditor.html">GVEditor</a> {</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="comment">// TODO: must be singleton</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classGVEditor_1_1InitState.html">    8</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classGVEditor_1_1InitState.html">InitState</a> : <span class="keyword">public</span> <a class="code" href="classBigHelper_1_1State.html">BigHelper::State</a> {</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <a class="code" href="classGVEditor_1_1InitState.html#a7ff09785995399e1241553c99e813af2">InitState</a>();</div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classGVEditor_1_1InitState.html#a7098aa05e720793b1656b89cbc9e2154">   11</a></span>&#160;        <a class="code" href="classGVEditor_1_1InitState.html#a7098aa05e720793b1656b89cbc9e2154">~InitState</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    };</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// INIT_STATE_H</span></div>
-<div class="ttc" id="aclassBigHelper_1_1State_html"><div class="ttname"><a href="classBigHelper_1_1State.html">BigHelper::State</a></div><div class="ttdef"><b>Definition:</b> state.h:5</div></div>
-<div class="ttc" id="aclassGVEditor_1_1InitState_html"><div class="ttname"><a href="classGVEditor_1_1InitState.html">GVEditor::InitState</a></div><div class="ttdef"><b>Definition:</b> init_state.h:8</div></div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classGVEditor_1_1InitState.html">    7</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classGVEditor_1_1InitState.html">InitState</a> : <span class="keyword">public</span> <a class="code" href="classUtility_1_1State.html">Utility::State</a> {</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <a class="code" href="classGVEditor_1_1InitState.html#a7ff09785995399e1241553c99e813af2">InitState</a>();</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classGVEditor_1_1InitState.html#a7098aa05e720793b1656b89cbc9e2154">   10</a></span>&#160;        <a class="code" href="classGVEditor_1_1InitState.html#a7098aa05e720793b1656b89cbc9e2154">~InitState</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    };</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// INIT_STATE_H</span></div>
+<div class="ttc" id="aclassGVEditor_1_1InitState_html"><div class="ttname"><a href="classGVEditor_1_1InitState.html">GVEditor::InitState</a></div><div class="ttdef"><b>Definition:</b> init_state.h:7</div></div>
 <div class="ttc" id="aclassGVEditor_1_1InitState_html_a7098aa05e720793b1656b89cbc9e2154"><div class="ttname"><a href="classGVEditor_1_1InitState.html#a7098aa05e720793b1656b89cbc9e2154">GVEditor::InitState::~InitState</a></div><div class="ttdeci">~InitState() override=default</div></div>
-<div class="ttc" id="aclassGVEditor_1_1InitState_html_a7ff09785995399e1241553c99e813af2"><div class="ttname"><a href="classGVEditor_1_1InitState.html#a7ff09785995399e1241553c99e813af2">GVEditor::InitState::InitState</a></div><div class="ttdeci">InitState()</div><div class="ttdef"><b>Definition:</b> init_state.cpp:4</div></div>
-<div class="ttc" id="anamespaceGVEditor_html"><div class="ttname"><a href="namespaceGVEditor.html">GVEditor</a></div><div class="ttdef"><b>Definition:</b> init_state.cpp:3</div></div>
+<div class="ttc" id="aclassGVEditor_1_1InitState_html_a7ff09785995399e1241553c99e813af2"><div class="ttname"><a href="classGVEditor_1_1InitState.html#a7ff09785995399e1241553c99e813af2">GVEditor::InitState::InitState</a></div><div class="ttdeci">InitState()</div><div class="ttdef"><b>Definition:</b> init_state.cpp:6</div></div>
+<div class="ttc" id="aclassUtility_1_1State_html"><div class="ttname"><a href="classUtility_1_1State.html">Utility::State</a></div><div class="ttdef"><b>Definition:</b> state.h:5</div></div>
+<div class="ttc" id="anamespaceGVEditor_html"><div class="ttname"><a href="namespaceGVEditor.html">GVEditor</a></div><div class="ttdef"><b>Definition:</b> init_state.cpp:5</div></div>
 <div class="ttc" id="astate_8h_html"><div class="ttname"><a href="state_8h.html">state.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

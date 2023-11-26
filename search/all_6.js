@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['operator_3d_13',['operator=',['../classBigHelper_1_1StateManager.html#a1d7b0cdfb5484a16afcec654f886912c',1,'BigHelper::StateManager::operator=(StateManager const &amp;)=delete'],['../classBigHelper_1_1StateManager.html#af0d26ee682c657912259d3ba54a74eae',1,'BigHelper::StateManager::operator=(StateManager &amp;&amp;)=delete']]]
+  ['getcurrentstate_10',['getCurrentState',['../classUtility_1_1StateManager.html#a69de9d4e0a55c4377ff81bc210f3fe2a',1,'Utility::StateManager']]],
+  ['getstateid_11',['getStateId',['../classUtility_1_1State.html#ab44d43a34ad503a38f3cd95feac4801a',1,'Utility::State']]],
+  ['gveditor_12',['GVEditor',['../namespaceGVEditor.html',1,'']]]
 ];

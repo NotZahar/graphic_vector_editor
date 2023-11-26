@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['_7einitstate_48',['~InitState',['../classGVEditor_1_1InitState.html#a7098aa05e720793b1656b89cbc9e2154',1,'GVEditor::InitState']]],
-  ['_7estate_49',['~State',['../classBigHelper_1_1State.html#aaf8fdf48a1503a1d18d84bafdfb20e6f',1,'BigHelper::State']]]
+  ['main_65',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;main.cpp'],['../editor_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;editor.cpp']]]
 ];

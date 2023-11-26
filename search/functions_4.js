@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['test_47',['TEST',['../editor_8cpp.html#ac211a1f43fd73fd506a70be440ff1393',1,'editor.cpp']]]
+  ['initstate_63',['InitState',['../classGVEditor_1_1InitState.html#a7ff09785995399e1241553c99e813af2',1,'GVEditor::InitState']]],
+  ['instance_64',['instance',['../classUtility_1_1StateManager.html#affe62ee789d26a0653a71a678ab6169c',1,'Utility::StateManager']]]
 ];

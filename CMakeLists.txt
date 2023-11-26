@@ -25,17 +25,17 @@ target_sources(${PROJECT_NAME}
 
 target_include_directories(${PROJECT_NAME} 
     PRIVATE 
-        BigHelper)
+        Utility)
 target_include_directories(editor_tests 
     PRIVATE 
-        ${GTEST_INCLUDE_DIRS} BigHelper)
+        ${GTEST_INCLUDE_DIRS} Utility)
 
 target_link_libraries(${PROJECT_NAME} 
     PRIVATE 
-        BigHelper)
+        Utility)
 target_link_libraries(editor_tests 
     PRIVATE 
-        ${GTEST_BOTH_LIBRARIES} BigHelper)
+        ${GTEST_BOTH_LIBRARIES} Utility)
 
 if(CMAKE_COMPILER_IS_GNUCXX)
     target_compile_options(${PROJECT_NAME} PRIVATE -Wall -Wextra -Werror -pedantic)

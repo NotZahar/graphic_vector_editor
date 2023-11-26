@@ -1,11 +1,10 @@
 #ifndef INIT_STATE_H
 #define INIT_STATE_H
 
-#include <state.h>
+#include <states/state.h>
 
 namespace GVEditor {
-    // TODO: must be singleton
-    class InitState : public BigHelper::State {
+    class InitState : public Utility::State {
     public:
         InitState();
         ~InitState() override = default;

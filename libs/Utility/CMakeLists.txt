@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.21)
 
-project("BigHelper" VERSION 0.0.1)
+project("Utility" VERSION 0.0.1)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -9,7 +9,8 @@ add_library(${PROJECT_NAME} STATIC)
 
 target_sources(${PROJECT_NAME}
     PRIVATE
-        src/state_manager.cpp
+        src/states/state_manager.cpp
+        src/states/state.cpp
 )
 
 target_include_directories(${PROJECT_NAME}
@@ -25,8 +26,8 @@ target_include_directories(${PROJECT_NAME}
 
 # without it public headers won't get installed
 set(PUBLIC_HEADERS
-    include/state_manager.h
-    include/state.h
+    include/states/state_manager.h
+    include/states/state.h
 )
 
 set_target_properties(${PROJECT_NAME} PROPERTIES PUBLIC_HEADER "${PUBLIC_HEADERS}")

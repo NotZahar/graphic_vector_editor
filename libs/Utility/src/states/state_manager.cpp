@@ -1,4 +1,6 @@
-#include "../include/states/state_manager.h"
+#include "../include/states/state_manager.hpp"
+
+#include <cassert>
 
 namespace Utility {
     StateManager::StateManager()
@@ -22,9 +24,13 @@ namespace Utility {
     }
 
     void StateManager::setStateAsCurrent(const State::stateId_t stateId) {
-        if (!stateExists(stateId))
+        _states.at(_currentStateId)->finish();
+        if (!stateExists(stateId)) {
+            assert(true);
             return;
+        }
         _currentStateId = stateId;
+        _states.at(_currentStateId)->start();
     }
 
     State::stateId_t StateManager::getCurrentState() const {

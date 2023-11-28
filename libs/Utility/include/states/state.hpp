@@ -6,6 +6,7 @@ namespace Utility {
     public:
         using stateId_t = int;
         
+        State() = delete;
         explicit State(const stateId_t stateId);
         virtual ~State() = default;
 
@@ -14,6 +15,8 @@ namespace Utility {
         State& operator=(State const&) = delete;
         State& operator=(State &&) = delete;
 
+        virtual void start() noexcept = 0;
+        virtual void finish() noexcept = 0;
         stateId_t getStateId() const;
 
     public:

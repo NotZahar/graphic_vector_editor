@@ -11,6 +11,7 @@ target_sources(${PROJECT_NAME}
     PRIVATE
         src/states/state_manager.cpp
         src/states/state.cpp
+        src/files/file_service.cpp
 )
 
 target_include_directories(${PROJECT_NAME}
@@ -26,11 +27,16 @@ target_include_directories(${PROJECT_NAME}
 
 # without it public headers won't get installed
 set(PUBLIC_HEADERS
-    include/states/state_manager.h
-    include/states/state.h
+    include/states/state_manager.hpp
+    include/states/state.hpp
+    include/files/file_service.hpp
 )
 
 set_target_properties(${PROJECT_NAME} PROPERTIES PUBLIC_HEADER "${PUBLIC_HEADERS}")
+
+if(CMAKE_COMPILER_IS_GNUCXX)
+    target_compile_options(${PROJECT_NAME} PRIVATE -Wall -Wextra -Werror -pedantic)
+endif()
 
 # where to find our CMake modules
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")

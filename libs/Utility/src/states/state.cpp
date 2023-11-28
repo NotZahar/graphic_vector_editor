@@ -1,4 +1,4 @@
-#include "../include/states/state.h"
+#include "../include/states/state.hpp"
 
 namespace Utility {
     State::State(const stateId_t stateId)

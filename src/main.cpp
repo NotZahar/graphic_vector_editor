@@ -1,7 +1,7 @@
-#include <states/state_manager.h>
+#include <states/state_manager.hpp>
 
-#include "states/init_state/init_state.h"
-#include "states/state_helper.h"
+#include "states/init_state/init_state.hpp"
+#include "states/state_helper.hpp"
 
 int main() {
     auto& stateManager = Utility::StateManager::instance();

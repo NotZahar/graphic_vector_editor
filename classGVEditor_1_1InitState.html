@@ -75,7 +75,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="init__state_8h_source.html">init_state.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="init__state_8hpp_source.html">init_state.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Граф наследования:GVEditor::InitState:</div>
 <div class="dyncontent">
@@ -101,7 +101,13 @@ $(function() {
 <tr class="separator:a7ff09785995399e1241553c99e813af2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7098aa05e720793b1656b89cbc9e2154"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGVEditor_1_1InitState.html#a7098aa05e720793b1656b89cbc9e2154">~InitState</a> () override=default</td></tr>
 <tr class="separator:a7098aa05e720793b1656b89cbc9e2154"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac6d13b8c05f8108e5d1453494105221"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGVEditor_1_1InitState.html#aac6d13b8c05f8108e5d1453494105221">start</a> () noexcept override</td></tr>
+<tr class="separator:aac6d13b8c05f8108e5d1453494105221"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf392f0b03f47b63945eb6b9e2e49e31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGVEditor_1_1InitState.html#abf392f0b03f47b63945eb6b9e2e49e31">finish</a> () noexcept override</td></tr>
+<tr class="separator:abf392f0b03f47b63945eb6b9e2e49e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classUtility_1_1State"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classUtility_1_1State')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="classUtility_1_1State.html">Utility::State</a></td></tr>
+<tr class="memitem:ae05f7ddca421fe8bde3314f62e9d013c inherit pub_methods_classUtility_1_1State"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1State.html#ae05f7ddca421fe8bde3314f62e9d013c">State</a> ()=delete</td></tr>
+<tr class="separator:ae05f7ddca421fe8bde3314f62e9d013c inherit pub_methods_classUtility_1_1State"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e22528f7e2b478620227d8d8d9fc2e5 inherit pub_methods_classUtility_1_1State"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1State.html#a5e22528f7e2b478620227d8d8d9fc2e5">State</a> (const <a class="el" href="classUtility_1_1State.html#a4b75c506c0cd64552864ae8bf9597ddf">stateId_t</a> stateId)</td></tr>
 <tr class="separator:a5e22528f7e2b478620227d8d8d9fc2e5 inherit pub_methods_classUtility_1_1State"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f3e3ef306cb17100212f86c19e4675e inherit pub_methods_classUtility_1_1State"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1State.html#a4f3e3ef306cb17100212f86c19e4675e">~State</a> ()=default</td></tr>
@@ -172,8 +178,63 @@ $(function() {
 
 </div>
 </div>
+<h2 class="groupheader">Методы</h2>
+<a id="abf392f0b03f47b63945eb6b9e2e49e31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf392f0b03f47b63945eb6b9e2e49e31">&#9670;&nbsp;</a></span>finish()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GVEditor::InitState::finish </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещает <a class="el" href="classUtility_1_1State.html#a55de2823655c2fb49df9b83f4185d394">Utility::State</a>.</p>
+
+</div>
+</div>
+<a id="aac6d13b8c05f8108e5d1453494105221"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac6d13b8c05f8108e5d1453494105221">&#9670;&nbsp;</a></span>start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GVEditor::InitState::start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещает <a class="el" href="classUtility_1_1State.html#aa7ed225cafd4b3078b79e43cd662b083">Utility::State</a>.</p>
+
+</div>
+</div>
 <hr/>Объявления и описания членов классов находятся в файлах:<ul>
-<li>src/states/init_state/<a class="el" href="init__state_8h_source.html">init_state.h</a></li>
+<li>src/states/init_state/<a class="el" href="init__state_8hpp_source.html">init_state.hpp</a></li>
 <li>src/states/init_state/<a class="el" href="init__state_8cpp.html">init_state.cpp</a></li>
 </ul>
 </div><!-- contents -->

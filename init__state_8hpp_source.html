@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GVEditor: Исходный файл src/states/init_state/init_state.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">GVEditor
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Макет графического векторного редактора</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_61a31ff85c95043c98241b02dc2a1804.html">states</a></li><li class="navelem"><a class="el" href="dir_63bf03bf21bec7772bffc611e9247cb7.html">init_state</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">init_state.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="init__state_8hpp.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef INIT_STATE_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define INIT_STATE_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="state_8hpp.html">states/state.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="init__controller_8hpp.html">controllers/init_controller.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceGVEditor.html">GVEditor</a> {</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classGVEditor_1_1InitState.html">    9</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classGVEditor_1_1InitState.html">InitState</a> : <span class="keyword">public</span> <a class="code" href="classUtility_1_1State.html">Utility::State</a> {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <a class="code" href="classGVEditor_1_1InitState.html#a7ff09785995399e1241553c99e813af2">InitState</a>();</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classGVEditor_1_1InitState.html#a7098aa05e720793b1656b89cbc9e2154">   12</a></span>&#160;        <a class="code" href="classGVEditor_1_1InitState.html#a7098aa05e720793b1656b89cbc9e2154">~InitState</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGVEditor_1_1InitState.html#aac6d13b8c05f8108e5d1453494105221">start</a>() noexcept override;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGVEditor_1_1InitState.html#abf392f0b03f47b63945eb6b9e2e49e31">finish</a>() noexcept override;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    private:</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="classGVEditor_1_1InitController.html">InitController</a> initController;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    };</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// INIT_STATE_H</span></div>
+<div class="ttc" id="aclassGVEditor_1_1InitController_html"><div class="ttname"><a href="classGVEditor_1_1InitController.html">GVEditor::InitController</a></div><div class="ttdef"><b>Definition:</b> init_controller.hpp:9</div></div>
+<div class="ttc" id="aclassGVEditor_1_1InitState_html"><div class="ttname"><a href="classGVEditor_1_1InitState.html">GVEditor::InitState</a></div><div class="ttdef"><b>Definition:</b> init_state.hpp:9</div></div>
+<div class="ttc" id="aclassGVEditor_1_1InitState_html_a7098aa05e720793b1656b89cbc9e2154"><div class="ttname"><a href="classGVEditor_1_1InitState.html#a7098aa05e720793b1656b89cbc9e2154">GVEditor::InitState::~InitState</a></div><div class="ttdeci">~InitState() override=default</div></div>
+<div class="ttc" id="aclassGVEditor_1_1InitState_html_a7ff09785995399e1241553c99e813af2"><div class="ttname"><a href="classGVEditor_1_1InitState.html#a7ff09785995399e1241553c99e813af2">GVEditor::InitState::InitState</a></div><div class="ttdeci">InitState()</div><div class="ttdef"><b>Definition:</b> init_state.cpp:7</div></div>
+<div class="ttc" id="aclassGVEditor_1_1InitState_html_aac6d13b8c05f8108e5d1453494105221"><div class="ttname"><a href="classGVEditor_1_1InitState.html#aac6d13b8c05f8108e5d1453494105221">GVEditor::InitState::start</a></div><div class="ttdeci">void start() noexcept override</div><div class="ttdef"><b>Definition:</b> init_state.cpp:14</div></div>
+<div class="ttc" id="aclassGVEditor_1_1InitState_html_abf392f0b03f47b63945eb6b9e2e49e31"><div class="ttname"><a href="classGVEditor_1_1InitState.html#abf392f0b03f47b63945eb6b9e2e49e31">GVEditor::InitState::finish</a></div><div class="ttdeci">void finish() noexcept override</div><div class="ttdef"><b>Definition:</b> init_state.cpp:18</div></div>
+<div class="ttc" id="aclassUtility_1_1State_html"><div class="ttname"><a href="classUtility_1_1State.html">Utility::State</a></div><div class="ttdef"><b>Definition:</b> state.hpp:5</div></div>
+<div class="ttc" id="ainit__controller_8hpp_html"><div class="ttname"><a href="init__controller_8hpp.html">init_controller.hpp</a></div></div>
+<div class="ttc" id="anamespaceGVEditor_html"><div class="ttname"><a href="namespaceGVEditor.html">GVEditor</a></div><div class="ttdef"><b>Definition:</b> init_controller.cpp:3</div></div>
+<div class="ttc" id="astate_8hpp_html"><div class="ttname"><a href="state_8hpp.html">state.hpp</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

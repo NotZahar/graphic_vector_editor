@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GVEditor: Исходный файл libs/Utility/include/states/state.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">GVEditor
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Макет графического векторного редактора</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_89e7f6ea881a13a77d54bb59f2d83d7f.html">Utility</a></li><li class="navelem"><a class="el" href="dir_39349cc0347856eea5db9ed25498fd71.html">include</a></li><li class="navelem"><a class="el" href="dir_1136413c2b603da2c80604c6233420ec.html">states</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">state.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="state_8hpp.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef STATE_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define STATE_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceUtility.html">Utility</a> {</div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="classUtility_1_1State.html">    5</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classUtility_1_1State.html">State</a> {</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classUtility_1_1State.html#a4b75c506c0cd64552864ae8bf9597ddf">    7</a></span>&#160;        <span class="keyword">using</span> <a class="code" href="classUtility_1_1State.html#a4b75c506c0cd64552864ae8bf9597ddf">stateId_t</a> = int;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        </div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classUtility_1_1State.html#ae05f7ddca421fe8bde3314f62e9d013c">    9</a></span>&#160;        <a class="code" href="classUtility_1_1State.html#ae05f7ddca421fe8bde3314f62e9d013c">State</a>() = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keyword">explicit</span> <a class="code" href="classUtility_1_1State.html#ae05f7ddca421fe8bde3314f62e9d013c">State</a>(<span class="keyword">const</span> <a class="code" href="classUtility_1_1State.html#a4b75c506c0cd64552864ae8bf9597ddf">stateId_t</a> stateId);</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classUtility_1_1State.html#a4f3e3ef306cb17100212f86c19e4675e">   11</a></span>&#160;        <span class="keyword">virtual</span> <a class="code" href="classUtility_1_1State.html#a4f3e3ef306cb17100212f86c19e4675e">~State</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classUtility_1_1State.html#af60b4092bb6d520fcf957db946f5e943">   13</a></span>&#160;        <a class="code" href="classUtility_1_1State.html#af60b4092bb6d520fcf957db946f5e943">State</a>(<span class="keyword">const</span> <a class="code" href="classUtility_1_1State.html">State</a>&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classUtility_1_1State.html#affb1a9efcbd4ba219121b47a4a8c6b7d">   14</a></span>&#160;        <a class="code" href="classUtility_1_1State.html#affb1a9efcbd4ba219121b47a4a8c6b7d">State</a>(<a class="code" href="classUtility_1_1State.html">State</a>&amp;&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classUtility_1_1State.html#a3c88266eab0e7f76ca18530ab6dccb17">   15</a></span>&#160;        <a class="code" href="classUtility_1_1State.html">State</a>&amp; <a class="code" href="classUtility_1_1State.html#a3c88266eab0e7f76ca18530ab6dccb17">operator=</a>(<a class="code" href="classUtility_1_1State.html">State</a> <span class="keyword">const</span>&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classUtility_1_1State.html#a9cad481bf3e83c90df01be53efbe4557">   16</a></span>&#160;        <a class="code" href="classUtility_1_1State.html">State</a>&amp; <a class="code" href="classUtility_1_1State.html#a9cad481bf3e83c90df01be53efbe4557">operator=</a>(<a class="code" href="classUtility_1_1State.html">State</a> &amp;&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classUtility_1_1State.html#aa7ed225cafd4b3078b79e43cd662b083">   18</a></span>&#160;        <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classUtility_1_1State.html#aa7ed225cafd4b3078b79e43cd662b083">start</a>() noexcept = 0;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classUtility_1_1State.html#a55de2823655c2fb49df9b83f4185d394">   19</a></span>&#160;        virtual <span class="keywordtype">void</span> <a class="code" href="classUtility_1_1State.html#a55de2823655c2fb49df9b83f4185d394">finish</a>() noexcept = 0;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="classUtility_1_1State.html#a4b75c506c0cd64552864ae8bf9597ddf">stateId_t</a> <a class="code" href="classUtility_1_1State.html#ab44d43a34ad503a38f3cd95feac4801a">getStateId</a>() const;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    public:</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classUtility_1_1State.html#af8f7b4c761bb74f2f8e7adc8a396fe3c">   23</a></span>&#160;        static inline constexpr <a class="code" href="classUtility_1_1State.html">State</a>::<a class="code" href="classUtility_1_1State.html#a4b75c506c0cd64552864ae8bf9597ddf">stateId_t</a> <a class="code" href="classUtility_1_1State.html#af8f7b4c761bb74f2f8e7adc8a396fe3c">INVALID_STATE_ID</a> = -1;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    protected:</div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classUtility_1_1State.html#a01bae1b0bac22301f422d2bc4f206edf">   26</a></span>&#160;        const <a class="code" href="classUtility_1_1State.html#a4b75c506c0cd64552864ae8bf9597ddf">stateId_t</a> <a class="code" href="classUtility_1_1State.html#a01bae1b0bac22301f422d2bc4f206edf">_stateId</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    };</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// STATE_H</span></div>
+<div class="ttc" id="aclassUtility_1_1State_html"><div class="ttname"><a href="classUtility_1_1State.html">Utility::State</a></div><div class="ttdef"><b>Definition:</b> state.hpp:5</div></div>
+<div class="ttc" id="aclassUtility_1_1State_html_a01bae1b0bac22301f422d2bc4f206edf"><div class="ttname"><a href="classUtility_1_1State.html#a01bae1b0bac22301f422d2bc4f206edf">Utility::State::_stateId</a></div><div class="ttdeci">const stateId_t _stateId</div><div class="ttdef"><b>Definition:</b> state.hpp:26</div></div>
+<div class="ttc" id="aclassUtility_1_1State_html_a3c88266eab0e7f76ca18530ab6dccb17"><div class="ttname"><a href="classUtility_1_1State.html#a3c88266eab0e7f76ca18530ab6dccb17">Utility::State::operator=</a></div><div class="ttdeci">State &amp; operator=(State const &amp;)=delete</div></div>
+<div class="ttc" id="aclassUtility_1_1State_html_a4b75c506c0cd64552864ae8bf9597ddf"><div class="ttname"><a href="classUtility_1_1State.html#a4b75c506c0cd64552864ae8bf9597ddf">Utility::State::stateId_t</a></div><div class="ttdeci">int stateId_t</div><div class="ttdef"><b>Definition:</b> state.hpp:7</div></div>
+<div class="ttc" id="aclassUtility_1_1State_html_a4f3e3ef306cb17100212f86c19e4675e"><div class="ttname"><a href="classUtility_1_1State.html#a4f3e3ef306cb17100212f86c19e4675e">Utility::State::~State</a></div><div class="ttdeci">virtual ~State()=default</div></div>
+<div class="ttc" id="aclassUtility_1_1State_html_a55de2823655c2fb49df9b83f4185d394"><div class="ttname"><a href="classUtility_1_1State.html#a55de2823655c2fb49df9b83f4185d394">Utility::State::finish</a></div><div class="ttdeci">virtual void finish() noexcept=0</div></div>
+<div class="ttc" id="aclassUtility_1_1State_html_a9cad481bf3e83c90df01be53efbe4557"><div class="ttname"><a href="classUtility_1_1State.html#a9cad481bf3e83c90df01be53efbe4557">Utility::State::operator=</a></div><div class="ttdeci">State &amp; operator=(State &amp;&amp;)=delete</div></div>
+<div class="ttc" id="aclassUtility_1_1State_html_aa7ed225cafd4b3078b79e43cd662b083"><div class="ttname"><a href="classUtility_1_1State.html#aa7ed225cafd4b3078b79e43cd662b083">Utility::State::start</a></div><div class="ttdeci">virtual void start() noexcept=0</div></div>
+<div class="ttc" id="aclassUtility_1_1State_html_ab44d43a34ad503a38f3cd95feac4801a"><div class="ttname"><a href="classUtility_1_1State.html#ab44d43a34ad503a38f3cd95feac4801a">Utility::State::getStateId</a></div><div class="ttdeci">stateId_t getStateId() const</div><div class="ttdef"><b>Definition:</b> state.cpp:8</div></div>
+<div class="ttc" id="aclassUtility_1_1State_html_ae05f7ddca421fe8bde3314f62e9d013c"><div class="ttname"><a href="classUtility_1_1State.html#ae05f7ddca421fe8bde3314f62e9d013c">Utility::State::State</a></div><div class="ttdeci">State()=delete</div></div>
+<div class="ttc" id="aclassUtility_1_1State_html_af60b4092bb6d520fcf957db946f5e943"><div class="ttname"><a href="classUtility_1_1State.html#af60b4092bb6d520fcf957db946f5e943">Utility::State::State</a></div><div class="ttdeci">State(const State &amp;)=delete</div></div>
+<div class="ttc" id="aclassUtility_1_1State_html_af8f7b4c761bb74f2f8e7adc8a396fe3c"><div class="ttname"><a href="classUtility_1_1State.html#af8f7b4c761bb74f2f8e7adc8a396fe3c">Utility::State::INVALID_STATE_ID</a></div><div class="ttdeci">static constexpr State::stateId_t INVALID_STATE_ID</div><div class="ttdef"><b>Definition:</b> state.hpp:23</div></div>
+<div class="ttc" id="aclassUtility_1_1State_html_affb1a9efcbd4ba219121b47a4a8c6b7d"><div class="ttname"><a href="classUtility_1_1State.html#affb1a9efcbd4ba219121b47a4a8c6b7d">Utility::State::State</a></div><div class="ttdeci">State(State &amp;&amp;)=delete</div></div>
+<div class="ttc" id="anamespaceUtility_html"><div class="ttname"><a href="namespaceUtility.html">Utility</a></div><div class="ttdef"><b>Definition:</b> file_service.hpp:8</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

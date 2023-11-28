@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GVEditor: Исходный файл libs/Utility/include/files/file_service.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">GVEditor
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Макет графического векторного редактора</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_6719ab1f1f7655efc2fa43f7eb574fd1.html">libs</a></li><li class="navelem"><a class="el" href="dir_89e7f6ea881a13a77d54bb59f2d83d7f.html">Utility</a></li><li class="navelem"><a class="el" href="dir_39349cc0347856eea5db9ed25498fd71.html">include</a></li><li class="navelem"><a class="el" href="dir_87d57e35afe1d6cd93195f331cbb86d2.html">files</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">file_service.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="file__service_8hpp.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef FILE_SERVICE_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define FILE_SERVICE_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;optional&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;filesystem&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="namespaceUtility.html">    8</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceUtility.html">Utility</a> {</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classUtility_1_1FileService.html">    9</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classUtility_1_1FileService.html">FileService</a> {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">   11</a></span>&#160;        <span class="keyword">using</span> <a class="code" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">path_t</a> = std::filesystem::path;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classUtility_1_1FileService.html#a7ecf11f0e826b01fc72daa4091d23b7d">   12</a></span>&#160;        <span class="keyword">using</span> <a class="code" href="classUtility_1_1FileService.html#a7ecf11f0e826b01fc72daa4091d23b7d">byte_t</a> = char;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classUtility_1_1FileService.html#abf33d391f170bcdfb76f5f45ec50a470">   13</a></span>&#160;        <span class="keyword">using</span> <a class="code" href="classUtility_1_1FileService.html#abf33d391f170bcdfb76f5f45ec50a470">bytes_t</a> = std::basic_string&lt;char&gt;;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="classUtility_1_1FileService.html#add4f8c990f153a1a3b78fca2f43d2aad">   15</a></span>&#160;        <a class="code" href="classUtility_1_1FileService.html#add4f8c990f153a1a3b78fca2f43d2aad">FileService</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classUtility_1_1FileService.html#a742adcd958e0f64097ad50fee00926fa">   16</a></span>&#160;        <a class="code" href="classUtility_1_1FileService.html#a742adcd958e0f64097ad50fee00926fa">~FileService</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classUtility_1_1FileService.html#a3a28bc122d13273ce9c6bd7dee092c22">createFile</a>(<span class="keyword">const</span> <a class="code" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">path_t</a>&amp; folderPath, <span class="keyword">const</span> std::string&amp; fileName);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keyword">static</span> std::optional&lt;bytes_t&gt; <a class="code" href="classUtility_1_1FileService.html#afd1fbb43f90eef9638044f2448d18707">readFromFile</a>(<span class="keyword">const</span> <a class="code" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">path_t</a>&amp; filePath);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keyword">static</span> <span class="keywordtype">bool</span> <a class="code" href="classUtility_1_1FileService.html#af5cb5ca837ffa1ee48efa2c4ce511570">writeToFile</a>(<span class="keyword">const</span> <a class="code" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">path_t</a>&amp; filePath, <span class="keyword">const</span> <a class="code" href="classUtility_1_1FileService.html#abf33d391f170bcdfb76f5f45ec50a470">bytes_t</a>&amp; bytes);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    };</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// FILE_SERVICE_H</span></div>
+<div class="ttc" id="aclassUtility_1_1FileService_html"><div class="ttname"><a href="classUtility_1_1FileService.html">Utility::FileService</a></div><div class="ttdef"><b>Definition:</b> file_service.hpp:9</div></div>
+<div class="ttc" id="aclassUtility_1_1FileService_html_a3a28bc122d13273ce9c6bd7dee092c22"><div class="ttname"><a href="classUtility_1_1FileService.html#a3a28bc122d13273ce9c6bd7dee092c22">Utility::FileService::createFile</a></div><div class="ttdeci">static bool createFile(const path_t &amp;folderPath, const std::string &amp;fileName)</div><div class="ttdef"><b>Definition:</b> file_service.cpp:4</div></div>
+<div class="ttc" id="aclassUtility_1_1FileService_html_a4b522c2a96c01c8621585b36663abe27"><div class="ttname"><a href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">Utility::FileService::path_t</a></div><div class="ttdeci">std::filesystem::path path_t</div><div class="ttdef"><b>Definition:</b> file_service.hpp:11</div></div>
+<div class="ttc" id="aclassUtility_1_1FileService_html_a742adcd958e0f64097ad50fee00926fa"><div class="ttname"><a href="classUtility_1_1FileService.html#a742adcd958e0f64097ad50fee00926fa">Utility::FileService::~FileService</a></div><div class="ttdeci">~FileService()=default</div></div>
+<div class="ttc" id="aclassUtility_1_1FileService_html_a7ecf11f0e826b01fc72daa4091d23b7d"><div class="ttname"><a href="classUtility_1_1FileService.html#a7ecf11f0e826b01fc72daa4091d23b7d">Utility::FileService::byte_t</a></div><div class="ttdeci">char byte_t</div><div class="ttdef"><b>Definition:</b> file_service.hpp:12</div></div>
+<div class="ttc" id="aclassUtility_1_1FileService_html_abf33d391f170bcdfb76f5f45ec50a470"><div class="ttname"><a href="classUtility_1_1FileService.html#abf33d391f170bcdfb76f5f45ec50a470">Utility::FileService::bytes_t</a></div><div class="ttdeci">std::basic_string&lt; char &gt; bytes_t</div><div class="ttdef"><b>Definition:</b> file_service.hpp:13</div></div>
+<div class="ttc" id="aclassUtility_1_1FileService_html_add4f8c990f153a1a3b78fca2f43d2aad"><div class="ttname"><a href="classUtility_1_1FileService.html#add4f8c990f153a1a3b78fca2f43d2aad">Utility::FileService::FileService</a></div><div class="ttdeci">FileService()=default</div></div>
+<div class="ttc" id="aclassUtility_1_1FileService_html_af5cb5ca837ffa1ee48efa2c4ce511570"><div class="ttname"><a href="classUtility_1_1FileService.html#af5cb5ca837ffa1ee48efa2c4ce511570">Utility::FileService::writeToFile</a></div><div class="ttdeci">static bool writeToFile(const path_t &amp;filePath, const bytes_t &amp;bytes)</div><div class="ttdef"><b>Definition:</b> file_service.cpp:14</div></div>
+<div class="ttc" id="aclassUtility_1_1FileService_html_afd1fbb43f90eef9638044f2448d18707"><div class="ttname"><a href="classUtility_1_1FileService.html#afd1fbb43f90eef9638044f2448d18707">Utility::FileService::readFromFile</a></div><div class="ttdeci">static std::optional&lt; bytes_t &gt; readFromFile(const path_t &amp;filePath)</div><div class="ttdef"><b>Definition:</b> file_service.cpp:9</div></div>
+<div class="ttc" id="anamespaceUtility_html"><div class="ttname"><a href="namespaceUtility.html">Utility</a></div><div class="ttdef"><b>Definition:</b> file_service.hpp:8</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['main_19',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;main.cpp'],['../editor_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;editor.cpp']]],
-  ['main_2ecpp_20',['main.cpp',['../main_8cpp.html',1,'']]]
+  ['label_25',['Label',['../classGVEditor_1_1Label.html',1,'GVEditor::Label'],['../classGVEditor_1_1Label.html#a4148c87b7ad2c0d2221641a57408ac1d',1,'GVEditor::Label::Label()=delete'],['../classGVEditor_1_1Label.html#af207b8e97619317c19f7825c9362010f',1,'GVEditor::Label::Label(const int width, const int height)']]],
+  ['label_2ehpp_26',['label.hpp',['../label_8hpp.html',1,'']]]
 ];

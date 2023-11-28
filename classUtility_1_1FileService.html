@@ -77,14 +77,16 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &lt;<a class="el" href="file__service_8h_source.html">file_service.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="file__service_8hpp_source.html">file_service.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Открытые типы</h2></td></tr>
-<tr class="memitem:af2ea34a4a58a190ae074694dc53cf718"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1FileService.html#af2ea34a4a58a190ae074694dc53cf718">byte</a> = char</td></tr>
-<tr class="separator:af2ea34a4a58a190ae074694dc53cf718"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7db0a8c0dfb3b4a581a5f4736ca19e4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1FileService.html#ae7db0a8c0dfb3b4a581a5f4736ca19e4">bytes</a> = std::string</td></tr>
-<tr class="separator:ae7db0a8c0dfb3b4a581a5f4736ca19e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b522c2a96c01c8621585b36663abe27"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">path_t</a> = std::filesystem::path</td></tr>
+<tr class="separator:a4b522c2a96c01c8621585b36663abe27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ecf11f0e826b01fc72daa4091d23b7d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1FileService.html#a7ecf11f0e826b01fc72daa4091d23b7d">byte_t</a> = char</td></tr>
+<tr class="separator:a7ecf11f0e826b01fc72daa4091d23b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf33d391f170bcdfb76f5f45ec50a470"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1FileService.html#abf33d391f170bcdfb76f5f45ec50a470">bytes_t</a> = std::basic_string&lt; char &gt;</td></tr>
+<tr class="separator:abf33d391f170bcdfb76f5f45ec50a470"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Открытые члены</h2></td></tr>
@@ -95,34 +97,50 @@ $(function() {
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Открытые статические члены</h2></td></tr>
-<tr class="memitem:af54d8c1ebec986802484c46ecfea594d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1FileService.html#af54d8c1ebec986802484c46ecfea594d">createFile</a> (const std::string &amp;folderPath, const std::string &amp;fileName)</td></tr>
-<tr class="separator:af54d8c1ebec986802484c46ecfea594d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5fa16082d61c8c4dce51d581114096a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1FileService.html#ab5fa16082d61c8c4dce51d581114096a">writeToFile</a> (const std::string &amp;filePath, const <a class="el" href="classUtility_1_1FileService.html#ae7db0a8c0dfb3b4a581a5f4736ca19e4">bytes</a> &amp;<a class="el" href="classUtility_1_1FileService.html#ae7db0a8c0dfb3b4a581a5f4736ca19e4">bytes</a>)</td></tr>
-<tr class="separator:ab5fa16082d61c8c4dce51d581114096a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a28bc122d13273ce9c6bd7dee092c22"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1FileService.html#a3a28bc122d13273ce9c6bd7dee092c22">createFile</a> (const <a class="el" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">path_t</a> &amp;folderPath, const std::string &amp;fileName)</td></tr>
+<tr class="separator:a3a28bc122d13273ce9c6bd7dee092c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd1fbb43f90eef9638044f2448d18707"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="classUtility_1_1FileService.html#abf33d391f170bcdfb76f5f45ec50a470">bytes_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1FileService.html#afd1fbb43f90eef9638044f2448d18707">readFromFile</a> (const <a class="el" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">path_t</a> &amp;filePath)</td></tr>
+<tr class="separator:afd1fbb43f90eef9638044f2448d18707"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5cb5ca837ffa1ee48efa2c4ce511570"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1FileService.html#af5cb5ca837ffa1ee48efa2c4ce511570">writeToFile</a> (const <a class="el" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">path_t</a> &amp;filePath, const <a class="el" href="classUtility_1_1FileService.html#abf33d391f170bcdfb76f5f45ec50a470">bytes_t</a> &amp;bytes)</td></tr>
+<tr class="separator:af5cb5ca837ffa1ee48efa2c4ce511570"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Определения типов</h2>
-<a id="af2ea34a4a58a190ae074694dc53cf718"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2ea34a4a58a190ae074694dc53cf718">&#9670;&nbsp;</a></span>byte</h2>
+<a id="a7ecf11f0e826b01fc72daa4091d23b7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ecf11f0e826b01fc72daa4091d23b7d">&#9670;&nbsp;</a></span>byte_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classUtility_1_1FileService.html#af2ea34a4a58a190ae074694dc53cf718">Utility::FileService::byte</a> =  char</td>
+          <td class="memname">using <a class="el" href="classUtility_1_1FileService.html#a7ecf11f0e826b01fc72daa4091d23b7d">Utility::FileService::byte_t</a> =  char</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ae7db0a8c0dfb3b4a581a5f4736ca19e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7db0a8c0dfb3b4a581a5f4736ca19e4">&#9670;&nbsp;</a></span>bytes</h2>
+<a id="abf33d391f170bcdfb76f5f45ec50a470"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf33d391f170bcdfb76f5f45ec50a470">&#9670;&nbsp;</a></span>bytes_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classUtility_1_1FileService.html#ae7db0a8c0dfb3b4a581a5f4736ca19e4">Utility::FileService::bytes</a> =  std::string</td>
+          <td class="memname">using <a class="el" href="classUtility_1_1FileService.html#abf33d391f170bcdfb76f5f45ec50a470">Utility::FileService::bytes_t</a> =  std::basic_string&lt;char&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4b522c2a96c01c8621585b36663abe27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b522c2a96c01c8621585b36663abe27">&#9670;&nbsp;</a></span>path_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">Utility::FileService::path_t</a> =  std::filesystem::path</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -181,8 +199,8 @@ $(function() {
 </div>
 </div>
 <h2 class="groupheader">Методы</h2>
-<a id="af54d8c1ebec986802484c46ecfea594d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af54d8c1ebec986802484c46ecfea594d">&#9670;&nbsp;</a></span>createFile()</h2>
+<a id="a3a28bc122d13273ce9c6bd7dee092c22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a28bc122d13273ce9c6bd7dee092c22">&#9670;&nbsp;</a></span>createFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -191,9 +209,9 @@ $(function() {
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool Utility::FileService::createFile </td>
+          <td class="memname">bool Utility::FileService::createFile </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">path_t</a> &amp;&#160;</td>
           <td class="paramname"><em>folderPath</em>, </td>
         </tr>
         <tr>
@@ -217,8 +235,8 @@ $(function() {
 
 </div>
 </div>
-<a id="ab5fa16082d61c8c4dce51d581114096a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5fa16082d61c8c4dce51d581114096a">&#9670;&nbsp;</a></span>writeToFile()</h2>
+<a id="afd1fbb43f90eef9638044f2448d18707"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd1fbb43f90eef9638044f2448d18707">&#9670;&nbsp;</a></span>readFromFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227,15 +245,41 @@ $(function() {
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool Utility::FileService::writeToFile </td>
+          <td class="memname">std::optional&lt; <a class="el" href="classUtility_1_1FileService.html#abf33d391f170bcdfb76f5f45ec50a470">FileService::bytes_t</a> &gt; Utility::FileService::readFromFile </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">path_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>filePath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af5cb5ca837ffa1ee48efa2c4ce511570"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5cb5ca837ffa1ee48efa2c4ce511570">&#9670;&nbsp;</a></span>writeToFile()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Utility::FileService::writeToFile </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">path_t</a> &amp;&#160;</td>
           <td class="paramname"><em>filePath</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classUtility_1_1FileService.html#ae7db0a8c0dfb3b4a581a5f4736ca19e4">bytes</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classUtility_1_1FileService.html#abf33d391f170bcdfb76f5f45ec50a470">bytes_t</a> &amp;&#160;</td>
           <td class="paramname"><em>bytes</em>&#160;</td>
         </tr>
         <tr>
@@ -253,8 +297,9 @@ $(function() {
 
 </div>
 </div>
-<hr/>Объявления и описания членов класса находятся в файле:<ul>
-<li>libs/Utility/include/files/<a class="el" href="file__service_8h_source.html">file_service.h</a></li>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li>libs/Utility/include/files/<a class="el" href="file__service_8hpp_source.html">file_service.hpp</a></li>
+<li>libs/Utility/src/files/<a class="el" href="file__service_8cpp.html">file_service.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

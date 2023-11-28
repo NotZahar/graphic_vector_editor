@@ -1,9 +1,11 @@
 <map id="src/states/init_state/controllers/init_controller.hpp" name="src/states/init_state/controllers/init_controller.hpp">
 <area shape="rect" id="node1" title=" " alt="" coords="5,5,221,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="12,184,89,211"/>
+<area shape="rect" id="node2" title=" " alt="" coords="61,259,139,285"/>
 <area shape="rect" id="node3" href="$welcome__view_8hpp.html" title=" " alt="" coords="89,95,266,136"/>
-<area shape="rect" id="node4" href="$view_8hpp.html" title=" " alt="" coords="113,184,193,211"/>
-<area shape="rect" id="node5" href="$window_8hpp.html" title=" " alt="" coords="217,184,412,211"/>
-<area shape="rect" id="node6" href="$label_8hpp.html" title=" " alt="" coords="436,184,615,211"/>
-<area shape="rect" id="node7" title=" " alt="" coords="496,259,555,285"/>
+<area shape="rect" id="node4" href="$view_8hpp.html" title=" " alt="" coords="137,184,217,211"/>
+<area shape="rect" id="node5" href="$window_8hpp.html" title=" " alt="" coords="241,184,436,211"/>
+<area shape="rect" id="node6" href="$menu_8hpp.html" title=" " alt="" coords="461,184,643,211"/>
+<area shape="rect" id="node7" title=" " alt="" coords="481,259,532,285"/>
+<area shape="rect" id="node8" href="$label_8hpp.html" title=" " alt="" coords="556,259,639,285"/>
+<area shape="rect" id="node9" title=" " alt="" coords="568,333,627,360"/>
 </map>

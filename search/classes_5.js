@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['welcomeview_73',['WelcomeView',['../classGVEditor_1_1WelcomeView.html',1,'GVEditor']]],
-  ['window_74',['Window',['../classGVEditor_1_1Window.html',1,'GVEditor']]]
+  ['state_89',['State',['../classUtility_1_1State.html',1,'Utility']]],
+  ['statemanager_90',['StateManager',['../classUtility_1_1StateManager.html',1,'Utility']]]
 ];

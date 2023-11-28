@@ -1,0 +1,11 @@
+<map id="src/UI/components/menu.hpp" name="src/UI/components/menu.hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="152,5,364,32"/>
+<area shape="rect" id="node2" href="$menu_8cpp.html" title=" " alt="" coords="47,87,258,114"/>
+<area shape="rect" id="node3" href="$welcome__view_8hpp.html" title=" " alt="" coords="283,80,447,121"/>
+<area shape="rect" id="node4" href="$init__controller_8hpp.html" title=" " alt="" coords="150,169,366,211"/>
+<area shape="rect" id="node9" href="$welcome__view_8cpp.html" title=" " alt="" coords="391,169,555,211"/>
+<area shape="rect" id="node5" href="$init__controller_8cpp.html" title=" " alt="" coords="5,259,220,300"/>
+<area shape="rect" id="node6" href="$init__state_8cpp.html" title=" " alt="" coords="183,348,333,389"/>
+<area shape="rect" id="node7" href="$init__state_8hpp.html" title=" " alt="" coords="296,259,447,300"/>
+<area shape="rect" id="node8" href="$main_8cpp.html" title=" " alt="" coords="357,355,463,382"/>
+</map>

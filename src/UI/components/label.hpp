@@ -7,7 +7,7 @@ namespace GVEditor {
     class Label {
     public:
         Label() = delete;
-        Label(const int width, const int height);
+        explicit Label(const std::string& label);
         ~Label() = default;
 
     private:

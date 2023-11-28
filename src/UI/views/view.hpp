@@ -5,7 +5,7 @@ namespace GVEditor {
     class View {
     public:
         View() = default;
-        ~View() = default;
+        virtual ~View() = default;
 
         View(const View&) = delete;
         View& operator=(View &&) = delete;

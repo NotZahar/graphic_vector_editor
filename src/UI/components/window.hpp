@@ -8,6 +8,9 @@ namespace GVEditor {
         Window(const int width, const int height);
         ~Window() = default;
 
+        void setLayout(/*Layout*/);
+        void addComponent();
+
     private:
         int _width;
         int _height;

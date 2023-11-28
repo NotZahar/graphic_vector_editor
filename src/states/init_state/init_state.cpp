@@ -5,7 +5,7 @@
 
 namespace GVEditor {
     InitState::InitState() 
-        : Utility::State(states::init),
+        : Utility::State(state::init),
           initController()
     {
         // impl

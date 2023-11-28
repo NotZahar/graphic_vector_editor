@@ -20,7 +20,19 @@ add_executable(editor_tests
 target_sources(${PROJECT_NAME}
     PRIVATE
         src/main.cpp
+        
+        # states
         src/states/init_state/init_state.cpp
+        src/states/init_state/controllers/init_controller.cpp
+        
+        # UI/components
+        src/UI/components/canvas.cpp
+        src/UI/components/label.cpp
+        src/UI/components/menu.cpp
+        src/UI/components/window.cpp
+
+        # UI/views
+        src/UI/views/welcome_view.cpp
 )
 
 target_include_directories(${PROJECT_NAME} 

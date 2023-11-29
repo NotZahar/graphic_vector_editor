@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GVEditor: Исходный файл src/UI/layout.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">GVEditor
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Макет графического векторного редактора</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_7ad25bca70c4d3d9103f75d82f41ef94.html">UI</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">layout.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="layout_8hpp.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef LAYOUT_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define LAYOUT_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="component_8hpp.html">component.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceGVEditor.html">GVEditor</a> {</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classGVEditor_1_1Layout.html">   10</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classGVEditor_1_1Layout.html">Layout</a> {</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classGVEditor_1_1Layout.html#adc8aec8eab769738673ebde98e15e024">   12</a></span>&#160;        <a class="code" href="classGVEditor_1_1Layout.html#adc8aec8eab769738673ebde98e15e024">Layout</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classGVEditor_1_1Layout.html#a2bbdf4401ab4021ca1a411ad9df4ace3">   13</a></span>&#160;        <span class="keyword">virtual</span> <a class="code" href="classGVEditor_1_1Layout.html#a2bbdf4401ab4021ca1a411ad9df4ace3">~Layout</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGVEditor_1_1Layout.html#a660e1fd15a960dc4119a6989e5acad58">addComponent</a>(std::unique_ptr&lt;Component&gt; component);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGVEditor_1_1Layout.html#afca36cd9fd7fbb9b140d28d83b3ffde9">removeComponent</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> componentKey);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classGVEditor_1_1Layout.html#ab41d30d54e978f3e4e54413313aade9e">   19</a></span>&#160;        std::map&lt;unsigned int, std::unique_ptr&lt;Component&gt;&gt; <a class="code" href="classGVEditor_1_1Layout.html#ab41d30d54e978f3e4e54413313aade9e">_components</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    };</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// LAYOUT_H</span></div>
+<div class="ttc" id="aclassGVEditor_1_1Layout_html"><div class="ttname"><a href="classGVEditor_1_1Layout.html">GVEditor::Layout</a></div><div class="ttdef"><b>Definition:</b> layout.hpp:10</div></div>
+<div class="ttc" id="aclassGVEditor_1_1Layout_html_a2bbdf4401ab4021ca1a411ad9df4ace3"><div class="ttname"><a href="classGVEditor_1_1Layout.html#a2bbdf4401ab4021ca1a411ad9df4ace3">GVEditor::Layout::~Layout</a></div><div class="ttdeci">virtual ~Layout()=default</div></div>
+<div class="ttc" id="aclassGVEditor_1_1Layout_html_a660e1fd15a960dc4119a6989e5acad58"><div class="ttname"><a href="classGVEditor_1_1Layout.html#a660e1fd15a960dc4119a6989e5acad58">GVEditor::Layout::addComponent</a></div><div class="ttdeci">void addComponent(std::unique_ptr&lt; Component &gt; component)</div><div class="ttdef"><b>Definition:</b> layout.cpp:4</div></div>
+<div class="ttc" id="aclassGVEditor_1_1Layout_html_ab41d30d54e978f3e4e54413313aade9e"><div class="ttname"><a href="classGVEditor_1_1Layout.html#ab41d30d54e978f3e4e54413313aade9e">GVEditor::Layout::_components</a></div><div class="ttdeci">std::map&lt; unsigned int, std::unique_ptr&lt; Component &gt; &gt; _components</div><div class="ttdef"><b>Definition:</b> layout.hpp:19</div></div>
+<div class="ttc" id="aclassGVEditor_1_1Layout_html_adc8aec8eab769738673ebde98e15e024"><div class="ttname"><a href="classGVEditor_1_1Layout.html#adc8aec8eab769738673ebde98e15e024">GVEditor::Layout::Layout</a></div><div class="ttdeci">Layout()=default</div></div>
+<div class="ttc" id="aclassGVEditor_1_1Layout_html_afca36cd9fd7fbb9b140d28d83b3ffde9"><div class="ttname"><a href="classGVEditor_1_1Layout.html#afca36cd9fd7fbb9b140d28d83b3ffde9">GVEditor::Layout::removeComponent</a></div><div class="ttdeci">void removeComponent(unsigned int componentKey)</div><div class="ttdef"><b>Definition:</b> layout.cpp:8</div></div>
+<div class="ttc" id="acomponent_8hpp_html"><div class="ttname"><a href="component_8hpp.html">component.hpp</a></div></div>
+<div class="ttc" id="anamespaceGVEditor_html"><div class="ttname"><a href="namespaceGVEditor.html">GVEditor</a></div><div class="ttdef"><b>Definition:</b> edit_controller.cpp:3</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

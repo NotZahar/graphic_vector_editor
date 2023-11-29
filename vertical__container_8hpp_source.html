@@ -74,11 +74,11 @@ $(function() {
 <a href="vertical__container_8hpp.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef VERTICAL_CONTAINER_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define VERTICAL_CONTAINER_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="component_8hpp.html">UI/component.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="container_8hpp.html">UI/container.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;../layout.hpp&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;../component.hpp&quot;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceGVEditor.html">GVEditor</a> {</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classGVEditor_1_1VerticalContainer.html">    8</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classGVEditor_1_1VerticalContainer.html">VerticalContainer</a> : <span class="keyword">public</span> <a class="code" href="classUtility_1_1Container.html">Utility::Container</a>, <span class="keyword">public</span> <a class="code" href="classUtility_1_1Component.html">Utility::Component</a> {</div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="classGVEditor_1_1VerticalContainer.html">    8</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classGVEditor_1_1VerticalContainer.html">VerticalContainer</a> : <span class="keyword">public</span> <a class="code" href="classGVEditor_1_1Layout.html">Layout</a>, <span class="keyword">public</span> <a class="code" href="classGVEditor_1_1Component.html">Component</a> {</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classGVEditor_1_1VerticalContainer.html#a24be5fae8d7ff793ea79de0fd8302080">   10</a></span>&#160;        <a class="code" href="classGVEditor_1_1VerticalContainer.html#a24be5fae8d7ff793ea79de0fd8302080">VerticalContainer</a>() = <span class="keywordflow">default</span>;</div>
 <div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classGVEditor_1_1VerticalContainer.html#a7efb611f4dceda81e2368f83d8fbe6de">   11</a></span>&#160;        <a class="code" href="classGVEditor_1_1VerticalContainer.html#a7efb611f4dceda81e2368f83d8fbe6de">~VerticalContainer</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
@@ -86,14 +86,12 @@ $(function() {
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// VERTICAL_CONTAINER_H</span></div>
+<div class="ttc" id="aclassGVEditor_1_1Component_html"><div class="ttname"><a href="classGVEditor_1_1Component.html">GVEditor::Component</a></div><div class="ttdef"><b>Definition:</b> component.hpp:5</div></div>
+<div class="ttc" id="aclassGVEditor_1_1Layout_html"><div class="ttname"><a href="classGVEditor_1_1Layout.html">GVEditor::Layout</a></div><div class="ttdef"><b>Definition:</b> layout.hpp:10</div></div>
 <div class="ttc" id="aclassGVEditor_1_1VerticalContainer_html"><div class="ttname"><a href="classGVEditor_1_1VerticalContainer.html">GVEditor::VerticalContainer</a></div><div class="ttdef"><b>Definition:</b> vertical_container.hpp:8</div></div>
 <div class="ttc" id="aclassGVEditor_1_1VerticalContainer_html_a24be5fae8d7ff793ea79de0fd8302080"><div class="ttname"><a href="classGVEditor_1_1VerticalContainer.html#a24be5fae8d7ff793ea79de0fd8302080">GVEditor::VerticalContainer::VerticalContainer</a></div><div class="ttdeci">VerticalContainer()=default</div></div>
 <div class="ttc" id="aclassGVEditor_1_1VerticalContainer_html_a7efb611f4dceda81e2368f83d8fbe6de"><div class="ttname"><a href="classGVEditor_1_1VerticalContainer.html#a7efb611f4dceda81e2368f83d8fbe6de">GVEditor::VerticalContainer::~VerticalContainer</a></div><div class="ttdeci">~VerticalContainer() override=default</div></div>
-<div class="ttc" id="aclassUtility_1_1Component_html"><div class="ttname"><a href="classUtility_1_1Component.html">Utility::Component</a></div><div class="ttdef"><b>Definition:</b> component.hpp:5</div></div>
-<div class="ttc" id="aclassUtility_1_1Container_html"><div class="ttname"><a href="classUtility_1_1Container.html">Utility::Container</a></div><div class="ttdef"><b>Definition:</b> container.hpp:10</div></div>
-<div class="ttc" id="acomponent_8hpp_html"><div class="ttname"><a href="component_8hpp.html">component.hpp</a></div></div>
-<div class="ttc" id="acontainer_8hpp_html"><div class="ttname"><a href="container_8hpp.html">container.hpp</a></div></div>
-<div class="ttc" id="anamespaceGVEditor_html"><div class="ttname"><a href="namespaceGVEditor.html">GVEditor</a></div><div class="ttdef"><b>Definition:</b> init_controller.cpp:3</div></div>
+<div class="ttc" id="anamespaceGVEditor_html"><div class="ttname"><a href="namespaceGVEditor.html">GVEditor</a></div><div class="ttdef"><b>Definition:</b> edit_controller.cpp:3</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

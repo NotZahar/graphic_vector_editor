@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['main_181',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;main.cpp'],['../editor_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;editor.cpp']]],
-  ['menu_182',['Menu',['../classGVEditor_1_1Menu.html#a698917f04624fcd0e39feb04a1fc2c5b',1,'GVEditor::Menu::Menu()=delete'],['../classGVEditor_1_1Menu.html#a07b06bbc2908d7e2e7aa59cbd146c510',1,'GVEditor::Menu::Menu(const items_t &amp;menuItems)']]]
+  ['label_218',['Label',['../classGVEditor_1_1Label.html#a4148c87b7ad2c0d2221641a57408ac1d',1,'GVEditor::Label::Label()=delete'],['../classGVEditor_1_1Label.html#a3596e935fab866ad34523baf5905d4b1',1,'GVEditor::Label::Label(const std::string &amp;label)']]],
+  ['layout_219',['Layout',['../classGVEditor_1_1Layout.html#adc8aec8eab769738673ebde98e15e024',1,'GVEditor::Layout']]]
 ];

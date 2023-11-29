@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['welcomeview_199',['WelcomeView',['../classGVEditor_1_1WelcomeView.html#afbb0d15694727eb8e1bd9be0e8d6ac7e',1,'GVEditor::WelcomeView']]],
-  ['window_200',['Window',['../classGVEditor_1_1Window.html#a0fbb9c80dea9f1568b1bb79ae0a9182a',1,'GVEditor::Window::Window()=delete'],['../classGVEditor_1_1Window.html#abdf176ce7feb3ea383d70c4764a10a68',1,'GVEditor::Window::Window(const int width, const int height)']]],
-  ['writetofile_201',['writeToFile',['../classUtility_1_1FileService.html#af5cb5ca837ffa1ee48efa2c4ce511570',1,'Utility::FileService']]]
+  ['verticalcontainer_243',['VerticalContainer',['../classGVEditor_1_1VerticalContainer.html#a24be5fae8d7ff793ea79de0fd8302080',1,'GVEditor::VerticalContainer']]],
+  ['view_244',['View',['../classGVEditor_1_1View.html#a816ea1588bd34e6d232a6097d2e8da86',1,'GVEditor::View::View()=default'],['../classGVEditor_1_1View.html#a50aee28cf3af1987cdf868b2443394e1',1,'GVEditor::View::View(const View &amp;)=delete']]]
 ];

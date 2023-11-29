@@ -1,5 +1,5 @@
 <map id="GVEditor::HorizontalContainer" name="GVEditor::HorizontalContainer">
-<area shape="rect" id="node1" title=" " alt="" coords="44,80,261,107"/>
-<area shape="rect" id="node2" href="$classUtility_1_1Container.html" title=" " alt="" coords="5,5,137,32"/>
-<area shape="rect" id="node3" href="$classUtility_1_1Component.html" title=" " alt="" coords="162,5,306,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="47,80,265,107"/>
+<area shape="rect" id="node2" href="$classGVEditor_1_1Layout.html" title=" " alt="" coords="5,5,136,32"/>
+<area shape="rect" id="node3" href="$classGVEditor_1_1Component.html" title=" " alt="" coords="160,5,323,32"/>
 </map>

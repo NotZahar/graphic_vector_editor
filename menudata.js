@@ -29,6 +29,7 @@ var menudata={children:[
 {text:"Пространства имен",url:"namespaces.html"},
 {text:"Члены пространств имен",url:"namespacemembers.html",children:[
 {text:"Указатель",url:"namespacemembers.html"},
+{text:"Функции",url:"namespacemembers_func.html"},
 {text:"Перечисления",url:"namespacemembers_enum.html"},
 {text:"Элементы перечислений",url:"namespacemembers_eval.html"}]}]},
 {text:"Классы",url:"annotated.html",children:[
@@ -58,6 +59,7 @@ var menudata={children:[
 {text:"Функции",url:"functions_func.html",children:[
 {text:"a",url:"functions_func.html#index_a"},
 {text:"c",url:"functions_func.html#index_c"},
+{text:"e",url:"functions_func.html#index_e"},
 {text:"f",url:"functions_func.html#index_f"},
 {text:"g",url:"functions_func.html#index_g"},
 {text:"h",url:"functions_func.html#index_h"},

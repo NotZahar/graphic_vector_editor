@@ -74,7 +74,7 @@ $(function() {
 <a href="init__state_8hpp.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef INIT_STATE_H</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define INIT_STATE_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="state_8hpp.html">states/state.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="state__manager_8hpp.html">states/state_manager.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="init__controller_8hpp.html">controllers/init_controller.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
@@ -87,22 +87,28 @@ $(function() {
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGVEditor_1_1InitState.html#aac6d13b8c05f8108e5d1453494105221">start</a>() noexcept override;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGVEditor_1_1InitState.html#abf392f0b03f47b63945eb6b9e2e49e31">finish</a>() noexcept override;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    private:</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="classGVEditor_1_1InitController.html">InitController</a> initController;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    };</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// INIT_STATE_H</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="comment">// private slots:</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGVEditor_1_1InitState.html#a027f276c6819a39ebbfdd0e7e5afa1bf">onEditStarted</a>();</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classGVEditor_1_1InitState.html#abd93d9baff0398abb1f5032af79dee56">   19</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGVEditor_1_1InitState.html#abd93d9baff0398abb1f5032af79dee56">onCancel</a>();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    private:</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="classGVEditor_1_1InitController.html">InitController</a> initController;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    };</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// INIT_STATE_H</span></div>
 <div class="ttc" id="aclassGVEditor_1_1InitController_html"><div class="ttname"><a href="classGVEditor_1_1InitController.html">GVEditor::InitController</a></div><div class="ttdef"><b>Definition:</b> init_controller.hpp:10</div></div>
 <div class="ttc" id="aclassGVEditor_1_1InitState_html"><div class="ttname"><a href="classGVEditor_1_1InitState.html">GVEditor::InitState</a></div><div class="ttdef"><b>Definition:</b> init_state.hpp:9</div></div>
+<div class="ttc" id="aclassGVEditor_1_1InitState_html_a027f276c6819a39ebbfdd0e7e5afa1bf"><div class="ttname"><a href="classGVEditor_1_1InitState.html#a027f276c6819a39ebbfdd0e7e5afa1bf">GVEditor::InitState::onEditStarted</a></div><div class="ttdeci">void onEditStarted()</div><div class="ttdef"><b>Definition:</b> init_state.cpp:23</div></div>
 <div class="ttc" id="aclassGVEditor_1_1InitState_html_a7098aa05e720793b1656b89cbc9e2154"><div class="ttname"><a href="classGVEditor_1_1InitState.html#a7098aa05e720793b1656b89cbc9e2154">GVEditor::InitState::~InitState</a></div><div class="ttdeci">~InitState() override=default</div></div>
 <div class="ttc" id="aclassGVEditor_1_1InitState_html_a7ff09785995399e1241553c99e813af2"><div class="ttname"><a href="classGVEditor_1_1InitState.html#a7ff09785995399e1241553c99e813af2">GVEditor::InitState::InitState</a></div><div class="ttdeci">InitState()</div><div class="ttdef"><b>Definition:</b> init_state.cpp:7</div></div>
-<div class="ttc" id="aclassGVEditor_1_1InitState_html_aac6d13b8c05f8108e5d1453494105221"><div class="ttname"><a href="classGVEditor_1_1InitState.html#aac6d13b8c05f8108e5d1453494105221">GVEditor::InitState::start</a></div><div class="ttdeci">void start() noexcept override</div><div class="ttdef"><b>Definition:</b> init_state.cpp:14</div></div>
-<div class="ttc" id="aclassGVEditor_1_1InitState_html_abf392f0b03f47b63945eb6b9e2e49e31"><div class="ttname"><a href="classGVEditor_1_1InitState.html#abf392f0b03f47b63945eb6b9e2e49e31">GVEditor::InitState::finish</a></div><div class="ttdeci">void finish() noexcept override</div><div class="ttdef"><b>Definition:</b> init_state.cpp:18</div></div>
+<div class="ttc" id="aclassGVEditor_1_1InitState_html_aac6d13b8c05f8108e5d1453494105221"><div class="ttname"><a href="classGVEditor_1_1InitState.html#aac6d13b8c05f8108e5d1453494105221">GVEditor::InitState::start</a></div><div class="ttdeci">void start() noexcept override</div><div class="ttdef"><b>Definition:</b> init_state.cpp:15</div></div>
+<div class="ttc" id="aclassGVEditor_1_1InitState_html_abd93d9baff0398abb1f5032af79dee56"><div class="ttname"><a href="classGVEditor_1_1InitState.html#abd93d9baff0398abb1f5032af79dee56">GVEditor::InitState::onCancel</a></div><div class="ttdeci">void onCancel()</div></div>
+<div class="ttc" id="aclassGVEditor_1_1InitState_html_abf392f0b03f47b63945eb6b9e2e49e31"><div class="ttname"><a href="classGVEditor_1_1InitState.html#abf392f0b03f47b63945eb6b9e2e49e31">GVEditor::InitState::finish</a></div><div class="ttdeci">void finish() noexcept override</div><div class="ttdef"><b>Definition:</b> init_state.cpp:19</div></div>
 <div class="ttc" id="aclassUtility_1_1State_html"><div class="ttname"><a href="classUtility_1_1State.html">Utility::State</a></div><div class="ttdef"><b>Definition:</b> state.hpp:5</div></div>
 <div class="ttc" id="ainit__controller_8hpp_html"><div class="ttname"><a href="init__controller_8hpp.html">init_controller.hpp</a></div></div>
-<div class="ttc" id="anamespaceGVEditor_html"><div class="ttname"><a href="namespaceGVEditor.html">GVEditor</a></div><div class="ttdef"><b>Definition:</b> init_controller.cpp:3</div></div>
-<div class="ttc" id="astate_8hpp_html"><div class="ttname"><a href="state_8hpp.html">state.hpp</a></div></div>
+<div class="ttc" id="anamespaceGVEditor_html"><div class="ttname"><a href="namespaceGVEditor.html">GVEditor</a></div><div class="ttdef"><b>Definition:</b> edit_controller.cpp:3</div></div>
+<div class="ttc" id="astate__manager_8hpp_html"><div class="ttname"><a href="state__manager_8hpp.html">state_manager.hpp</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

@@ -83,21 +83,30 @@ $(function() {
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceGVEditor.html">GVEditor</a> {</div>
 <div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classGVEditor_1_1WelcomeView.html">   11</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classGVEditor_1_1WelcomeView.html">WelcomeView</a> : <span class="keyword">public</span> <a class="code" href="classGVEditor_1_1View.html">View</a> {</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <a class="code" href="classGVEditor_1_1WelcomeView.html#afbb0d15694727eb8e1bd9be0e8d6ac7e">WelcomeView</a>();</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <a class="code" href="classGVEditor_1_1WelcomeView.html#a7d9fdc0111afd51503d67be508163fb4">WelcomeView</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> windowWidth, <span class="keyword">const</span> <span class="keywordtype">int</span> windowHeight);</div>
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classGVEditor_1_1WelcomeView.html#a4cc1d06a48b800fdf5183e0b463213ec">   14</a></span>&#160;        <a class="code" href="classGVEditor_1_1WelcomeView.html#a4cc1d06a48b800fdf5183e0b463213ec">~WelcomeView</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        std::unique_ptr&lt;Window&gt; _weclomeWindow;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        std::unique_ptr&lt;Menu&gt; _menu;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    };</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGVEditor_1_1WelcomeView.html#a4f9944ea04de845244580678bb725d0e">setMainLayout</a>(std::shared_ptr&lt;Layout&gt; layout);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGVEditor_1_1WelcomeView.html#a7ae89ec9e18cef0fdafebb490057a574">refresh</a>() <span class="keyword">override</span>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="comment">// signals:</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classGVEditor_1_1WelcomeView.html#a83a0ece607231b4cf360dfdcccf76eda">   20</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGVEditor_1_1WelcomeView.html#a83a0ece607231b4cf360dfdcccf76eda">choiceMade</a>(<a class="code" href="classGVEditor_1_1Menu.html#a9e210a8c1a04f096c975f997800a63f3">Menu::itemKey_t</a>) {}</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// WELCOME_VIEW_H</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        std::unique_ptr&lt;Window&gt; _mainWindow;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    };</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// WELCOME_VIEW_H</span></div>
+<div class="ttc" id="aclassGVEditor_1_1Menu_html_a9e210a8c1a04f096c975f997800a63f3"><div class="ttname"><a href="classGVEditor_1_1Menu.html#a9e210a8c1a04f096c975f997800a63f3">GVEditor::Menu::itemKey_t</a></div><div class="ttdeci">unsigned int itemKey_t</div><div class="ttdef"><b>Definition:</b> menu.hpp:12</div></div>
 <div class="ttc" id="aclassGVEditor_1_1View_html"><div class="ttname"><a href="classGVEditor_1_1View.html">GVEditor::View</a></div><div class="ttdef"><b>Definition:</b> view.hpp:5</div></div>
 <div class="ttc" id="aclassGVEditor_1_1WelcomeView_html"><div class="ttname"><a href="classGVEditor_1_1WelcomeView.html">GVEditor::WelcomeView</a></div><div class="ttdef"><b>Definition:</b> welcome_view.hpp:11</div></div>
 <div class="ttc" id="aclassGVEditor_1_1WelcomeView_html_a4cc1d06a48b800fdf5183e0b463213ec"><div class="ttname"><a href="classGVEditor_1_1WelcomeView.html#a4cc1d06a48b800fdf5183e0b463213ec">GVEditor::WelcomeView::~WelcomeView</a></div><div class="ttdeci">~WelcomeView() override=default</div></div>
-<div class="ttc" id="aclassGVEditor_1_1WelcomeView_html_afbb0d15694727eb8e1bd9be0e8d6ac7e"><div class="ttname"><a href="classGVEditor_1_1WelcomeView.html#afbb0d15694727eb8e1bd9be0e8d6ac7e">GVEditor::WelcomeView::WelcomeView</a></div><div class="ttdeci">WelcomeView()</div><div class="ttdef"><b>Definition:</b> welcome_view.cpp:4</div></div>
-<div class="ttc" id="anamespaceGVEditor_html"><div class="ttname"><a href="namespaceGVEditor.html">GVEditor</a></div><div class="ttdef"><b>Definition:</b> init_controller.cpp:3</div></div>
+<div class="ttc" id="aclassGVEditor_1_1WelcomeView_html_a4f9944ea04de845244580678bb725d0e"><div class="ttname"><a href="classGVEditor_1_1WelcomeView.html#a4f9944ea04de845244580678bb725d0e">GVEditor::WelcomeView::setMainLayout</a></div><div class="ttdeci">void setMainLayout(std::shared_ptr&lt; Layout &gt; layout)</div><div class="ttdef"><b>Definition:</b> welcome_view.cpp:9</div></div>
+<div class="ttc" id="aclassGVEditor_1_1WelcomeView_html_a7ae89ec9e18cef0fdafebb490057a574"><div class="ttname"><a href="classGVEditor_1_1WelcomeView.html#a7ae89ec9e18cef0fdafebb490057a574">GVEditor::WelcomeView::refresh</a></div><div class="ttdeci">void refresh() override</div><div class="ttdef"><b>Definition:</b> welcome_view.cpp:13</div></div>
+<div class="ttc" id="aclassGVEditor_1_1WelcomeView_html_a7d9fdc0111afd51503d67be508163fb4"><div class="ttname"><a href="classGVEditor_1_1WelcomeView.html#a7d9fdc0111afd51503d67be508163fb4">GVEditor::WelcomeView::WelcomeView</a></div><div class="ttdeci">WelcomeView(const int windowWidth, const int windowHeight)</div><div class="ttdef"><b>Definition:</b> welcome_view.cpp:4</div></div>
+<div class="ttc" id="aclassGVEditor_1_1WelcomeView_html_a83a0ece607231b4cf360dfdcccf76eda"><div class="ttname"><a href="classGVEditor_1_1WelcomeView.html#a83a0ece607231b4cf360dfdcccf76eda">GVEditor::WelcomeView::choiceMade</a></div><div class="ttdeci">void choiceMade(Menu::itemKey_t)</div><div class="ttdef"><b>Definition:</b> welcome_view.hpp:20</div></div>
+<div class="ttc" id="anamespaceGVEditor_html"><div class="ttname"><a href="namespaceGVEditor.html">GVEditor</a></div><div class="ttdef"><b>Definition:</b> edit_controller.cpp:3</div></div>
 <div class="ttc" id="aview_8hpp_html"><div class="ttname"><a href="view_8hpp.html">view.hpp</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

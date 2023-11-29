@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['removeshape_175',['removeShape',['../classGVEditor_1_1WelcomeView.html#a0565a77c043a13b8ef0325db1851a799adc50145c68e7284f90cb2e81a63a726a',1,'GVEditor::WelcomeView']]]
+  ['removeshape_234',['removeShape',['../classGVEditor_1_1InitModel.html#a4d44177408887667f9246b53e8a51d29aa1b6d54386c1469654950117672fa08c',1,'GVEditor::InitModel']]]
 ];

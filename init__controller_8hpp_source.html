@@ -76,21 +76,23 @@ $(function() {
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;../../../UI/views/welcome_view.hpp&quot;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceGVEditor.html">GVEditor</a> {</div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classGVEditor_1_1InitController.html">    9</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classGVEditor_1_1InitController.html">InitController</a> {</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <a class="code" href="classGVEditor_1_1InitController.html#abcf9df91444986b6197ab77ab0e4df7a">InitController</a>();</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classGVEditor_1_1InitController.html#a596e75ed052aed1027a6ba1b7416fa27">   12</a></span>&#160;        <a class="code" href="classGVEditor_1_1InitController.html#a596e75ed052aed1027a6ba1b7416fa27">~InitController</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        std::unique_ptr&lt;WelcomeView&gt; _welcomeView;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    };</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// INIT_CONTROLLER_H</span></div>
-<div class="ttc" id="aclassGVEditor_1_1InitController_html"><div class="ttname"><a href="classGVEditor_1_1InitController.html">GVEditor::InitController</a></div><div class="ttdef"><b>Definition:</b> init_controller.hpp:9</div></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;../models/init_model.hpp&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;../../../UI/views/welcome_view.hpp&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceGVEditor.html">GVEditor</a> {</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classGVEditor_1_1InitController.html">   10</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classGVEditor_1_1InitController.html">InitController</a> {</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="classGVEditor_1_1InitController.html#abcf9df91444986b6197ab77ab0e4df7a">InitController</a>();</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classGVEditor_1_1InitController.html#a596e75ed052aed1027a6ba1b7416fa27">   13</a></span>&#160;        <a class="code" href="classGVEditor_1_1InitController.html#a596e75ed052aed1027a6ba1b7416fa27">~InitController</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        std::unique_ptr&lt;InitModel&gt; _initModel;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        std::unique_ptr&lt;WelcomeView&gt; _welcomeView;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    };</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// INIT_CONTROLLER_H</span></div>
+<div class="ttc" id="aclassGVEditor_1_1InitController_html"><div class="ttname"><a href="classGVEditor_1_1InitController.html">GVEditor::InitController</a></div><div class="ttdef"><b>Definition:</b> init_controller.hpp:10</div></div>
 <div class="ttc" id="aclassGVEditor_1_1InitController_html_a596e75ed052aed1027a6ba1b7416fa27"><div class="ttname"><a href="classGVEditor_1_1InitController.html#a596e75ed052aed1027a6ba1b7416fa27">GVEditor::InitController::~InitController</a></div><div class="ttdeci">~InitController()=default</div></div>
 <div class="ttc" id="aclassGVEditor_1_1InitController_html_abcf9df91444986b6197ab77ab0e4df7a"><div class="ttname"><a href="classGVEditor_1_1InitController.html#abcf9df91444986b6197ab77ab0e4df7a">GVEditor::InitController::InitController</a></div><div class="ttdeci">InitController()</div><div class="ttdef"><b>Definition:</b> init_controller.cpp:4</div></div>
 <div class="ttc" id="anamespaceGVEditor_html"><div class="ttname"><a href="namespaceGVEditor.html">GVEditor</a></div><div class="ttdef"><b>Definition:</b> init_controller.cpp:3</div></div>

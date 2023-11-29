@@ -9,9 +9,15 @@ add_library(${PROJECT_NAME} STATIC)
 
 target_sources(${PROJECT_NAME}
     PRIVATE
+        # states
         src/states/state_manager.cpp
         src/states/state.cpp
+        
+        # files
         src/files/file_service.cpp
+        
+        # UI
+        src/UI/container.cpp
 )
 
 target_include_directories(${PROJECT_NAME}
@@ -27,9 +33,16 @@ target_include_directories(${PROJECT_NAME}
 
 # without it public headers won't get installed
 set(PUBLIC_HEADERS
+    # states
     include/states/state_manager.hpp
     include/states/state.hpp
+    
+    # files
     include/files/file_service.hpp
+
+    # UI
+    include/UI/component.hpp
+    include/UI/container.hpp
 )
 
 set_target_properties(${PROJECT_NAME} PROPERTIES PUBLIC_HEADER "${PUBLIC_HEADERS}")

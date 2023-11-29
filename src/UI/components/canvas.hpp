@@ -1,12 +1,14 @@
 #ifndef CANVAS_H
 #define CANVAS_H
 
+#include <UI/component.hpp>
+
 namespace GVEditor {
-    class Canvas {
+    class Canvas : public Utility::Component {
     public:
         Canvas() = delete;
         Canvas(const int width, const int height);
-        ~Canvas() = default;
+        ~Canvas() override = default;
 
     private:
         int _width;

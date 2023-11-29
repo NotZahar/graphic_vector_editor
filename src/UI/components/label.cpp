@@ -2,7 +2,8 @@
 
 namespace GVEditor {
     Label::Label(const std::string& label)
-        : _label(label)
+        : Component(),
+          _label(label)
     {
         // impl
     }

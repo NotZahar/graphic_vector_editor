@@ -8,7 +8,7 @@ namespace GVEditor {
         virtual ~View() = default;
 
         View(const View&) = delete;
-        View& operator=(View &&) = delete;
+        View& operator=(View&&) = delete;
     };
 }
 

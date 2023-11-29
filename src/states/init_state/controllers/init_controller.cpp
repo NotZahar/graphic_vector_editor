@@ -2,7 +2,6 @@
 
 namespace GVEditor {
     InitController::InitController()
-        : _welcomeView(std::make_unique<WelcomeView>())
     {
         // impl
     }

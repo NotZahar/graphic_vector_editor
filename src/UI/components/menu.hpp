@@ -7,14 +7,14 @@
 #include "label.hpp"
 
 namespace GVEditor {
-    class Menu {
+    class Menu : public Utility::Component {
     public:
         using itemKey_t = unsigned int;
         using items_t = std::map<itemKey_t, Label>;
 
         Menu() = delete;
         explicit Menu(const items_t& menuItems);
-        ~Menu() = default;
+        ~Menu() override = default;
 
     private:
         items_t _items;

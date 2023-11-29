@@ -13,7 +13,7 @@ namespace Utility {
         State(const State&) = delete;
         State(State&&) = delete;
         State& operator=(State const&) = delete;
-        State& operator=(State &&) = delete;
+        State& operator=(State&&) = delete;
 
         virtual void start() noexcept = 0;
         virtual void finish() noexcept = 0;
@@ -22,7 +22,7 @@ namespace Utility {
     public:
         static inline constexpr State::stateId_t INVALID_STATE_ID = -1;
 
-    protected:
+    private:
         const stateId_t _stateId;
     };
 }

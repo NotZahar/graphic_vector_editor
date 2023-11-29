@@ -3,12 +3,14 @@
 
 #include <string>
 
+#include <UI/component.hpp>
+
 namespace GVEditor {
-    class Label {
+    class Label : public Utility::Component {
     public:
         Label() = delete;
         explicit Label(const std::string& label);
-        ~Label() = default;
+        ~Label() override = default;
 
     private:
         std::string _label;

@@ -4,7 +4,7 @@
 #include <memory>
 
 #include "view.hpp"
-#include "../components/window.hpp"
+#include "../window.hpp"
 #include "../components/menu.hpp"
 
 namespace GVEditor {
@@ -12,14 +12,6 @@ namespace GVEditor {
     public:
         WelcomeView();
         ~WelcomeView() override = default;
-
-        enum menuItem : Menu::itemKey_t {
-            createDoc,
-            importDoc,
-            exportDoc,
-            createShape,
-            removeShape
-        };
 
     private:
         std::unique_ptr<Window> _weclomeWindow;

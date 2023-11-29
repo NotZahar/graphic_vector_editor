@@ -24,12 +24,15 @@ target_sources(${PROJECT_NAME}
         # states
         src/states/init_state/init_state.cpp
         src/states/init_state/controllers/init_controller.cpp
-        
+        src/states/init_state/models/init_model.cpp
+
+        # UI
+        src/UI/window.cpp
+
         # UI/components
         src/UI/components/canvas.cpp
         src/UI/components/label.cpp
         src/UI/components/menu.cpp
-        src/UI/components/window.cpp
 
         # UI/views
         src/UI/views/welcome_view.cpp

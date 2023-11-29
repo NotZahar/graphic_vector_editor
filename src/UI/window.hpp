@@ -1,7 +1,7 @@
 #ifndef WINDOW_H
 #define WINDOW_H
 
-#include <UI/container.hpp>
+#include "layout.hpp"
 
 namespace GVEditor {
     class Window {
@@ -10,13 +10,13 @@ namespace GVEditor {
         Window(const int width, const int height);
         ~Window() = default;
 
-        void setContainer(std::shared_ptr<Utility::Container> container);
-        std::shared_ptr<Utility::Container> getContainer();
+        void setLayout(std::shared_ptr<Layout> layout);
+        std::shared_ptr<Layout> getLayout();
 
     private:
         int _width;
         int _height;
-        std::shared_ptr<Utility::Container> _container;
+        std::shared_ptr<Layout> _layout;
     };
 }
 

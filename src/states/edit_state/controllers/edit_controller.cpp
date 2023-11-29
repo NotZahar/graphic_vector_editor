@@ -1,7 +1,7 @@
-#include "init_controller.hpp"
+#include "edit_controller.hpp"
 
 namespace GVEditor {
-    InitController::InitController()
+    EditController::EditController()
     {
         // connect(view, ..., this, ...)
         // impl

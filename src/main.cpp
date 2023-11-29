@@ -6,6 +6,8 @@
 int main() {
     auto& stateManager = Utility::StateManager::instance();
     stateManager.addNewState(std::make_unique<GVEditor::InitState>());
+    // stateManager.addNewState(std::make_unique<GVEditor::InitState>());
+    // stateManager.addNewState(std::make_unique<GVEditor::InitState>());
     stateManager.setStateAsCurrent(GVEditor::state::init);
 
     return 0;

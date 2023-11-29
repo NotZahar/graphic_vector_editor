@@ -28,6 +28,7 @@ target_sources(${PROJECT_NAME}
 
         # UI
         src/UI/window.cpp
+        src/UI/layout.cpp
 
         # UI/components
         src/UI/components/canvas.cpp

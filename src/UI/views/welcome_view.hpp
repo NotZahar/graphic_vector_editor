@@ -10,12 +10,17 @@
 namespace GVEditor {
     class WelcomeView : public View {
     public:
-        WelcomeView();
+        WelcomeView(const int windowWidth, const int windowHeight);
         ~WelcomeView() override = default;
 
+        void setMainLayout(std::shared_ptr<Layout> layout);
+        void refresh() override;
+
+    // signals:
+        void choiceMade(Menu::itemKey_t) {}
+
     private:
-        std::unique_ptr<Window> _weclomeWindow;
-        std::unique_ptr<Menu> _menu;
+        std::unique_ptr<Window> _mainWindow;
     };
 }
 

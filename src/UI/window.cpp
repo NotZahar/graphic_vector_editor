@@ -6,11 +6,11 @@ namespace GVEditor {
         // impl
     }
 
-    void Window::setContainer(std::shared_ptr<Utility::Container>) {
+    void Window::setLayout(std::shared_ptr<Layout>) {
         // impl
     }
     
-    std::shared_ptr<Utility::Container> Window::getContainer() {
-        return _container;
+    std::shared_ptr<Layout> Window::getLayout() {
+        return _layout;
     }
 }

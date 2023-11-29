@@ -1,7 +1,7 @@
 #ifndef COMPONENT_H
 #define COMPONENT_H
 
-namespace Utility {
+namespace GVEditor {
     class Component {
     public:
         Component() = default;
@@ -10,8 +10,8 @@ namespace Utility {
         bool isVisible() const {
             return _visible;
         }
-
-        virtual void setVisible(bool visible) {
+        
+        void setVisible(bool visible) {
             _visible = visible;
         }
 

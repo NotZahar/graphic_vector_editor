@@ -3,10 +3,10 @@
 
 #include <string>
 
-#include <UI/component.hpp>
+#include "../component.hpp"
 
 namespace GVEditor {
-    class Label : public Utility::Component {
+    class Label : public Component {
     public:
         Label() = delete;
         explicit Label(const std::string& label);

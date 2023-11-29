@@ -1,10 +1,10 @@
 #ifndef CANVAS_H
 #define CANVAS_H
 
-#include <UI/component.hpp>
+#include "../component.hpp"
 
 namespace GVEditor {
-    class Canvas : public Utility::Component {
+    class Canvas : public Component {
     public:
         Canvas() = delete;
         Canvas(const int width, const int height);

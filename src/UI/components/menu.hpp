@@ -7,7 +7,7 @@
 #include "label.hpp"
 
 namespace GVEditor {
-    class Menu : public Utility::Component {
+    class Menu : public Component {
     public:
         using itemKey_t = unsigned int;
         using items_t = std::map<itemKey_t, Label>;

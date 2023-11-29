@@ -1,7 +1,7 @@
 #ifndef INIT_STATE_H
 #define INIT_STATE_H
 
-#include <states/state.hpp>
+#include <states/state_manager.hpp>
 
 #include "controllers/init_controller.hpp"
 
@@ -13,6 +13,10 @@ namespace GVEditor {
 
         void start() noexcept override;
         void finish() noexcept override;
+
+    // private slots:
+        void onEditStarted();
+        void onCancel();
 
     private:
         InitController initController;

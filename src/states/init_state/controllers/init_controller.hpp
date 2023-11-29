@@ -12,6 +12,13 @@ namespace GVEditor {
         InitController();
         ~InitController() = default;
 
+    // signals:
+        void editStarted() {}
+        void cancel() {}
+
+    // private slots:
+        void onChoiceMade(Menu::itemKey_t) {/* impl */}
+
     private:
         std::unique_ptr<InitModel> _initModel;
         std::unique_ptr<WelcomeView> _welcomeView;

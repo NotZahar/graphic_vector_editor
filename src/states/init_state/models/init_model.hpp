@@ -15,7 +15,8 @@ namespace GVEditor {
             importDoc,
             exportDoc,
             createShape,
-            removeShape
+            removeShape,
+            exit
         };
 
         int getWindowWidth() const;

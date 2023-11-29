@@ -15,9 +15,6 @@ target_sources(${PROJECT_NAME}
         
         # files
         src/files/file_service.cpp
-        
-        # UI
-        src/UI/container.cpp
 )
 
 target_include_directories(${PROJECT_NAME}
@@ -39,10 +36,6 @@ set(PUBLIC_HEADERS
     
     # files
     include/files/file_service.hpp
-
-    # UI
-    include/UI/component.hpp
-    include/UI/container.hpp
 )
 
 set_target_properties(${PROJECT_NAME} PROPERTIES PUBLIC_HEADER "${PUBLIC_HEADERS}")

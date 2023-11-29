@@ -1,11 +1,11 @@
 #ifndef VERTICAL_CONTAINER_H
 #define VERTICAL_CONTAINER_H
 
-#include <UI/component.hpp>
-#include <UI/container.hpp>
+#include "../layout.hpp"
+#include "../component.hpp"
 
 namespace GVEditor {
-    class VerticalContainer : public Utility::Container, public Utility::Component {
+    class VerticalContainer : public Layout, public Component {
     public:
         VerticalContainer() = default;
         ~VerticalContainer() override = default;

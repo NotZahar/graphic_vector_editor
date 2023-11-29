@@ -1,16 +1,16 @@
-#ifndef CONTAINER_H
-#define CONTAINER_H
+#ifndef LAYOUT_H
+#define LAYOUT_H
 
 #include <map>
 #include <memory>
 
 #include "component.hpp"
 
-namespace Utility {
-    class Container {
+namespace GVEditor {
+    class Layout {
     public:
-        Container() = default;
-        virtual ~Container() = default;
+        Layout() = default;
+        virtual ~Layout() = default;
 
         void addComponent(std::unique_ptr<Component> component);
         void removeComponent(unsigned int componentKey);
@@ -20,4 +20,4 @@ namespace Utility {
     };
 }
 
-#endif // CONTAINER_H
+#endif // LAYOUT_H

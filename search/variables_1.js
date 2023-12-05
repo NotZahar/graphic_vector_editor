@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['invalid_5fstate_5fid_267',['INVALID_STATE_ID',['../classUtility_1_1State.html#af8f7b4c761bb74f2f8e7adc8a396fe3c',1,'Utility::State']]]
+  ['createdocstr_302',['createDocStr',['../structGVEditor_1_1TitleHelper.html#a697b20b5d6d788c2675a0efe93e04dc9',1,'GVEditor::TitleHelper']]],
+  ['createshapestr_303',['createShapeStr',['../structGVEditor_1_1TitleHelper.html#abe75f7d7c4e76a920b94088c7ba4fc3d',1,'GVEditor::TitleHelper']]]
 ];

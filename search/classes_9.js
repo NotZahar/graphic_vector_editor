@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['welcomeview_150',['WelcomeView',['../classGVEditor_1_1WelcomeView.html',1,'GVEditor']]],
-  ['window_151',['Window',['../classGVEditor_1_1Window.html',1,'GVEditor']]]
+  ['uihelper_172',['UIHelper',['../structGVEditor_1_1UIHelper.html',1,'GVEditor']]]
 ];

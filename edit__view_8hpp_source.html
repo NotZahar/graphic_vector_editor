@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GVEditor: Исходный файл src/UI/views/edit_view.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">GVEditor
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Макет графического векторного редактора</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_7ad25bca70c4d3d9103f75d82f41ef94.html">UI</a></li><li class="navelem"><a class="el" href="dir_fde1a11dabd6fa13616b72fcb63532b7.html">views</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">edit_view.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="edit__view_8hpp.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef EDIT_VIEW_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define EDIT_VIEW_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="view_8hpp.html">view.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;../window.hpp&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;../components/menu.hpp&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceGVEditor.html">GVEditor</a> {</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classGVEditor_1_1EditView.html">   11</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classGVEditor_1_1EditView.html">EditView</a> : <span class="keyword">public</span> <a class="code" href="classGVEditor_1_1View.html">View</a> {</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <a class="code" href="classGVEditor_1_1EditView.html#a310fa779cdbdf97482713d6b203f1d68">EditView</a>(<span class="keyword">const</span> <span class="keywordtype">int</span> windowWidth, <span class="keyword">const</span> <span class="keywordtype">int</span> windowHeight);</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classGVEditor_1_1EditView.html#a561e398dad51bb0741e3c3c2d1de32a8">   14</a></span>&#160;        <a class="code" href="classGVEditor_1_1EditView.html#a561e398dad51bb0741e3c3c2d1de32a8">~EditView</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGVEditor_1_1EditView.html#a44b84f2783d7a3930babdc426495fa30">setMainLayout</a>(std::shared_ptr&lt;Layout&gt; layout);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="comment">// signals:</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classGVEditor_1_1EditView.html#a5d617e11e16c05bbd0627dad5ee254da">   19</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGVEditor_1_1EditView.html#a5d617e11e16c05bbd0627dad5ee254da">choiceMade</a>(<a class="code" href="classGVEditor_1_1Menu.html#a9e210a8c1a04f096c975f997800a63f3">Menu::itemKey_t</a>) {}</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        std::unique_ptr&lt;Window&gt; _mainWindow;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    };</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// EDIT_VIEW_H</span></div>
+<div class="ttc" id="aclassGVEditor_1_1EditView_html"><div class="ttname"><a href="classGVEditor_1_1EditView.html">GVEditor::EditView</a></div><div class="ttdef"><b>Definition:</b> edit_view.hpp:11</div></div>
+<div class="ttc" id="aclassGVEditor_1_1EditView_html_a310fa779cdbdf97482713d6b203f1d68"><div class="ttname"><a href="classGVEditor_1_1EditView.html#a310fa779cdbdf97482713d6b203f1d68">GVEditor::EditView::EditView</a></div><div class="ttdeci">EditView(const int windowWidth, const int windowHeight)</div><div class="ttdef"><b>Definition:</b> edit_view.cpp:4</div></div>
+<div class="ttc" id="aclassGVEditor_1_1EditView_html_a44b84f2783d7a3930babdc426495fa30"><div class="ttname"><a href="classGVEditor_1_1EditView.html#a44b84f2783d7a3930babdc426495fa30">GVEditor::EditView::setMainLayout</a></div><div class="ttdeci">void setMainLayout(std::shared_ptr&lt; Layout &gt; layout)</div><div class="ttdef"><b>Definition:</b> edit_view.cpp:9</div></div>
+<div class="ttc" id="aclassGVEditor_1_1EditView_html_a561e398dad51bb0741e3c3c2d1de32a8"><div class="ttname"><a href="classGVEditor_1_1EditView.html#a561e398dad51bb0741e3c3c2d1de32a8">GVEditor::EditView::~EditView</a></div><div class="ttdeci">~EditView() override=default</div></div>
+<div class="ttc" id="aclassGVEditor_1_1EditView_html_a5d617e11e16c05bbd0627dad5ee254da"><div class="ttname"><a href="classGVEditor_1_1EditView.html#a5d617e11e16c05bbd0627dad5ee254da">GVEditor::EditView::choiceMade</a></div><div class="ttdeci">void choiceMade(Menu::itemKey_t)</div><div class="ttdef"><b>Definition:</b> edit_view.hpp:19</div></div>
+<div class="ttc" id="aclassGVEditor_1_1Menu_html_a9e210a8c1a04f096c975f997800a63f3"><div class="ttname"><a href="classGVEditor_1_1Menu.html#a9e210a8c1a04f096c975f997800a63f3">GVEditor::Menu::itemKey_t</a></div><div class="ttdeci">unsigned int itemKey_t</div><div class="ttdef"><b>Definition:</b> menu.hpp:12</div></div>
+<div class="ttc" id="aclassGVEditor_1_1View_html"><div class="ttname"><a href="classGVEditor_1_1View.html">GVEditor::View</a></div><div class="ttdef"><b>Definition:</b> view.hpp:5</div></div>
+<div class="ttc" id="anamespaceGVEditor_html"><div class="ttname"><a href="namespaceGVEditor.html">GVEditor</a></div><div class="ttdef"><b>Definition:</b> title_helper.hpp:6</div></div>
+<div class="ttc" id="aview_8hpp_html"><div class="ttname"><a href="view_8hpp.html">view.hpp</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

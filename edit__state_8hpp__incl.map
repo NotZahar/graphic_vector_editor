@@ -1,11 +1,19 @@
 <map id="src/states/edit_state/edit_state.hpp" name="src/states/edit_state/edit_state.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="231,5,386,47"/>
-<area shape="rect" id="node2" href="$state__manager_8hpp.html" title=" " alt="" coords="100,95,291,121"/>
-<area shape="rect" id="node6" href="$edit__controller_8hpp.html" title=" " alt="" coords="315,95,531,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="261,169,338,196"/>
-<area shape="rect" id="node4" title=" " alt="" coords="5,169,129,196"/>
-<area shape="rect" id="node5" href="$state_8hpp.html" title=" " alt="" coords="154,169,237,196"/>
-<area shape="rect" id="node7" href="$edit__model_8hpp.html" title=" " alt="" coords="362,169,549,196"/>
-<area shape="rect" id="node8" title=" " alt="" coords="390,244,441,271"/>
-<area shape="rect" id="node9" title=" " alt="" coords="465,244,523,271"/>
+<area shape="rect" id="node1" title=" " alt="" coords="531,5,686,47"/>
+<area shape="rect" id="node2" href="$state__manager_8hpp.html" title=" " alt="" coords="661,95,852,121"/>
+<area shape="rect" id="node6" href="$edit__controller_8hpp.html" title=" " alt="" coords="387,95,603,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="534,423,611,449"/>
+<area shape="rect" id="node4" title=" " alt="" coords="712,177,836,203"/>
+<area shape="rect" id="node5" href="$state_8hpp.html" title=" " alt="" coords="861,177,943,203"/>
+<area shape="rect" id="node7" href="$edit__model_8hpp.html" title=" " alt="" coords="23,333,157,375"/>
+<area shape="rect" id="node11" href="$edit__view_8hpp.html" title=" " alt="" coords="408,169,551,211"/>
+<area shape="rect" id="node8" title=" " alt="" coords="261,423,311,449"/>
+<area shape="rect" id="node9" title=" " alt="" coords="178,423,237,449"/>
+<area shape="rect" id="node10" href="$window__model_8hpp.html" title=" " alt="" coords="5,423,153,449"/>
+<area shape="rect" id="node12" href="$view_8hpp.html" title=" " alt="" coords="113,259,193,285"/>
+<area shape="rect" id="node13" href="$window_8hpp.html" title=" " alt="" coords="424,259,535,285"/>
+<area shape="rect" id="node16" href="$menu_8hpp.html" title=" " alt="" coords="217,259,400,285"/>
+<area shape="rect" id="node14" href="$layout_8hpp.html" title=" " alt="" coords="394,341,485,367"/>
+<area shape="rect" id="node15" href="$component_8hpp.html" title=" " alt="" coords="363,423,486,449"/>
+<area shape="rect" id="node17" href="$label_8hpp.html" title=" " alt="" coords="287,341,370,367"/>
 </map>

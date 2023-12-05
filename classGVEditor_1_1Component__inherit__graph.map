@@ -1,8 +1,8 @@
 <map id="GVEditor::Component" name="GVEditor::Component">
 <area shape="rect" id="node1" title=" " alt="" coords="5,107,168,133"/>
-<area shape="rect" id="node2" href="$classGVEditor_1_1Canvas.html" title=" " alt="" coords="257,5,392,32"/>
-<area shape="rect" id="node3" href="$classGVEditor_1_1HorizontalContainer.html" title=" " alt="" coords="216,56,433,83"/>
-<area shape="rect" id="node4" href="$classGVEditor_1_1Label.html" title=" " alt="" coords="263,107,386,133"/>
-<area shape="rect" id="node5" href="$classGVEditor_1_1Menu.html" title=" " alt="" coords="263,157,386,184"/>
-<area shape="rect" id="node6" href="$classGVEditor_1_1VerticalContainer.html" title=" " alt="" coords="225,208,424,235"/>
+<area shape="rect" id="node2" href="$classGVEditor_1_1Canvas.html" title=" " alt="" coords="248,5,383,32"/>
+<area shape="rect" id="node3" href="$classGVEditor_1_1HorizontalLayout.html" title=" " alt="" coords="216,56,415,83"/>
+<area shape="rect" id="node4" href="$classGVEditor_1_1Label.html" title=" " alt="" coords="254,107,377,133"/>
+<area shape="rect" id="node5" href="$classGVEditor_1_1Menu.html" title=" " alt="" coords="254,157,377,184"/>
+<area shape="rect" id="node6" href="$classGVEditor_1_1VerticalLayout.html" title=" " alt="" coords="225,208,405,235"/>
 </map>

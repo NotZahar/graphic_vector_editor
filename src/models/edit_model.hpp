@@ -1,14 +1,16 @@
-#ifndef INIT_MODEL_H
-#define INIT_MODEL_H
+#ifndef EDIT_MODEL_H
+#define EDIT_MODEL_H
 
 #include <map>
 #include <string>
 
+#include "window_model.hpp"
+
 namespace GVEditor {
-    class InitModel {
+    class EditModel : public WindowModel {
     public:
-        InitModel();
-        ~InitModel() = default;
+        EditModel();
+        ~EditModel() override = default;
 
         enum menuItem : unsigned int {
             createDoc,
@@ -18,20 +20,14 @@ namespace GVEditor {
             removeShape,
             exit
         };
-
-        int getWindowWidth() const;
-        int getWindowHeight() const;
+        
         const std::map<menuItem, std::string>& getMenu() const;
         
-        void setWindowWidth(int width);
-        void setWindowHeight(int height);
         void setMenu(const std::map<menuItem, std::string>& menu);
-
+    
     private:
-        int _windowWidth;
-        int _windowHeight;
         std::map<menuItem, std::string> _menu;
     };
 }
 
-#endif // INIT_MODEL_H
+#endif // EDIT_MODEL_H

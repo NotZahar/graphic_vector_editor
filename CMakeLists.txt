@@ -23,8 +23,16 @@ target_sources(${PROJECT_NAME}
         
         # states
         src/states/init_state/init_state.cpp
+        src/states/edit_state/edit_state.cpp
+
+        # controllers
         src/states/init_state/controllers/init_controller.cpp
-        src/states/init_state/models/init_model.cpp
+        src/states/edit_state/controllers/edit_controller.cpp
+
+        # models
+        src/models/window_model.cpp
+        src/models/init_model.cpp
+        src/models/edit_model.cpp
 
         # UI
         src/UI/window.cpp
@@ -36,7 +44,8 @@ target_sources(${PROJECT_NAME}
         src/UI/components/menu.cpp
 
         # UI/views
-        src/UI/views/welcome_view.cpp
+        src/UI/views/init_view.cpp
+        src/UI/views/edit_view.cpp
 )
 
 target_include_directories(${PROJECT_NAME} 

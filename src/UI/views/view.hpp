@@ -9,8 +9,6 @@ namespace GVEditor {
 
         View(const View&) = delete;
         View& operator=(View&&) = delete;
-
-        virtual void refresh() = 0;
     };
 }
 

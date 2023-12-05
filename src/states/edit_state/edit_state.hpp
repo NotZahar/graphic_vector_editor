@@ -15,7 +15,7 @@ namespace GVEditor {
         void finish() noexcept override;
 
     // private slots:
-        void onExitChosen();
+        void onCancel();
 
     private:
         EditController editController;

@@ -3,8 +3,8 @@
 
 #include <memory>
 
-#include "../models/edit_model.hpp"
-// #include "../../../UI/views/welcome_view.hpp"
+#include "../../../models/edit_model.hpp"
+#include "../../../UI/views/edit_view.hpp"
 
 namespace GVEditor {
     class EditController {
@@ -20,7 +20,7 @@ namespace GVEditor {
 
     private:
         std::unique_ptr<EditModel> _initModel;
-        // std::unique_ptr<WelcomeView> _welcomeView;
+        std::unique_ptr<EditView> _editView;
     };
 }
 

@@ -1,5 +1,5 @@
-#ifndef WELCOME_VIEW_H
-#define WELCOME_VIEW_H
+#ifndef EDIT_VIEW_H
+#define EDIT_VIEW_H
 
 #include <memory>
 
@@ -8,13 +8,12 @@
 #include "../components/menu.hpp"
 
 namespace GVEditor {
-    class WelcomeView : public View {
+    class EditView : public View {
     public:
-        WelcomeView(const int windowWidth, const int windowHeight);
-        ~WelcomeView() override = default;
+        EditView(const int windowWidth, const int windowHeight);
+        ~EditView() override = default;
 
         void setMainLayout(std::shared_ptr<Layout> layout);
-        void refresh() override;
 
     // signals:
         void choiceMade(Menu::itemKey_t) {}
@@ -24,4 +23,4 @@ namespace GVEditor {
     };
 }
 
-#endif // WELCOME_VIEW_H
+#endif // EDIT_VIEW_H

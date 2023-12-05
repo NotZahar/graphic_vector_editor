@@ -20,7 +20,7 @@ namespace GVEditor {
         // impl
     }
 
-    void EditState::onExitChosen() {
+    void EditState::onCancel() {
         Utility::StateManager::instance().setStateAsCurrent(GVEditor::state::cancel);
     }
 }

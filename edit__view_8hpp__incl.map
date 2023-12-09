@@ -1,12 +1,17 @@
 <map id="src/UI/views/edit_view.hpp" name="src/UI/views/edit_view.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="77,5,272,32"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,229,83,256"/>
-<area shape="rect" id="node3" href="$view_8hpp.html" title=" " alt="" coords="376,80,456,107"/>
-<area shape="rect" id="node4" href="$window_8hpp.html" title=" " alt="" coords="34,80,145,107"/>
-<area shape="rect" id="node8" href="$menu_8hpp.html" title=" " alt="" coords="169,80,351,107"/>
-<area shape="rect" id="node5" href="$layout_8hpp.html" title=" " alt="" coords="84,155,175,181"/>
-<area shape="rect" id="node6" title=" " alt="" coords="107,229,157,256"/>
-<area shape="rect" id="node7" href="$component_8hpp.html" title=" " alt="" coords="181,229,304,256"/>
-<area shape="rect" id="node9" href="$label_8hpp.html" title=" " alt="" coords="249,155,332,181"/>
-<area shape="rect" id="node10" title=" " alt="" coords="328,229,387,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="248,5,443,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="156,244,234,271"/>
+<area shape="rect" id="node3" href="$file__service_8hpp.html" title=" " alt="" coords="547,87,702,114"/>
+<area shape="rect" id="node7" href="$view_8hpp.html" title=" " alt="" coords="726,87,806,114"/>
+<area shape="rect" id="node8" href="$window_8hpp.html" title=" " alt="" coords="205,87,316,114"/>
+<area shape="rect" id="node12" href="$menu_8hpp.html" title=" " alt="" coords="340,87,522,114"/>
+<area shape="rect" id="node14" href="$dshape_8hpp.html" title=" " alt="" coords="25,80,181,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="584,169,659,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="514,244,572,271"/>
+<area shape="rect" id="node6" title=" " alt="" coords="683,169,774,196"/>
+<area shape="rect" id="node9" href="$layout_8hpp.html" title=" " alt="" coords="258,169,348,196"/>
+<area shape="rect" id="node10" title=" " alt="" coords="280,244,331,271"/>
+<area shape="rect" id="node11" href="$component_8hpp.html" title=" " alt="" coords="363,244,486,271"/>
+<area shape="rect" id="node13" href="$label_8hpp.html" title=" " alt="" coords="423,169,506,196"/>
+<area shape="rect" id="node15" href="$shape_8hpp.html" title=" " alt="" coords="31,169,132,196"/>
 </map>

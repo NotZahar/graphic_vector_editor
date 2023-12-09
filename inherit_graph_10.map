@@ -1,3 +1,5 @@
 <map id="Иерархия классов. Графический вид." name="Иерархия классов. Графический вид.">
-<area shape="rect" id="node1" href="$classUtility_1_1StateManager.html" title=" " alt="" coords="5,5,165,32"/>
+<area shape="rect" id="node1" href="$classGVEditor_1_1WindowModel.html" title=" " alt="" coords="5,31,184,57"/>
+<area shape="rect" id="node2" href="$classGVEditor_1_1EditModel.html" title=" " alt="" coords="232,5,384,32"/>
+<area shape="rect" id="node3" href="$classGVEditor_1_1InitModel.html" title=" " alt="" coords="234,56,382,83"/>
 </map>

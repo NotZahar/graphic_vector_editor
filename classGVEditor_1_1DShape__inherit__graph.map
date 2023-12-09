@@ -1,0 +1,5 @@
+<map id="GVEditor::DShape" name="GVEditor::DShape">
+<area shape="rect" id="node1" title=" " alt="" coords="79,5,216,32"/>
+<area shape="rect" id="node2" href="$classGVEditor_1_1DLine.html" title=" " alt="" coords="5,80,129,107"/>
+<area shape="rect" id="node3" href="$classGVEditor_1_1DPolygon.html" title=" " alt="" coords="154,80,303,107"/>
+</map>

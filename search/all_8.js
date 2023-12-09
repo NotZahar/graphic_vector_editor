@@ -1,23 +1,5 @@
 var searchData=
 [
-  ['importdoc_52',['importDoc',['../classGVEditor_1_1InitModel.html#a4d44177408887667f9246b53e8a51d29abbf2f02d5e91a8b0b912a7c1d9e179f4',1,'GVEditor::InitModel::importDoc()'],['../classGVEditor_1_1EditModel.html#a0072533b3eb919d44df706691ecc2d88a0f903a6b6a6ac261cb793b9de5aa2f3d',1,'GVEditor::EditModel::importDoc()']]],
-  ['importdocstr_53',['importDocStr',['../structGVEditor_1_1TitleHelper.html#aee2cc3503135658cbc87d214c6b83154',1,'GVEditor::TitleHelper']]],
-  ['init_54',['init',['../namespaceGVEditor.html#a354850ebf71d72f84fe36f11a40f173fa87627f361e7a611634157e45e422499e',1,'GVEditor']]],
-  ['init_5fcontroller_2ecpp_55',['init_controller.cpp',['../init__controller_8cpp.html',1,'']]],
-  ['init_5fcontroller_2ehpp_56',['init_controller.hpp',['../init__controller_8hpp.html',1,'']]],
-  ['init_5fmodel_2ecpp_57',['init_model.cpp',['../init__model_8cpp.html',1,'']]],
-  ['init_5fmodel_2ehpp_58',['init_model.hpp',['../init__model_8hpp.html',1,'']]],
-  ['init_5fstate_2ecpp_59',['init_state.cpp',['../init__state_8cpp.html',1,'']]],
-  ['init_5fstate_2ehpp_60',['init_state.hpp',['../init__state_8hpp.html',1,'']]],
-  ['init_5fview_2ecpp_61',['init_view.cpp',['../init__view_8cpp.html',1,'']]],
-  ['init_5fview_2ehpp_62',['init_view.hpp',['../init__view_8hpp.html',1,'']]],
-  ['initcontroller_63',['InitController',['../classGVEditor_1_1InitController.html',1,'GVEditor::InitController'],['../classGVEditor_1_1InitController.html#abcf9df91444986b6197ab77ab0e4df7a',1,'GVEditor::InitController::InitController()']]],
-  ['initmodel_64',['InitModel',['../classGVEditor_1_1InitModel.html',1,'GVEditor::InitModel'],['../classGVEditor_1_1InitModel.html#a5317644257f2ccaff1a06b8d8f2f6a09',1,'GVEditor::InitModel::InitModel()']]],
-  ['initstate_65',['InitState',['../classGVEditor_1_1InitState.html',1,'GVEditor::InitState'],['../classGVEditor_1_1InitState.html#a7ff09785995399e1241553c99e813af2',1,'GVEditor::InitState::InitState()']]],
-  ['initview_66',['InitView',['../classGVEditor_1_1InitView.html',1,'GVEditor::InitView'],['../classGVEditor_1_1InitView.html#ac3678ee62f45aac566b4dafdc0ab78e4',1,'GVEditor::InitView::InitView()']]],
-  ['instance_67',['instance',['../classUtility_1_1StateManager.html#affe62ee789d26a0653a71a678ab6169c',1,'Utility::StateManager']]],
-  ['invalid_5fstate_5fid_68',['INVALID_STATE_ID',['../classUtility_1_1State.html#af8f7b4c761bb74f2f8e7adc8a396fe3c',1,'Utility::State']]],
-  ['isvisible_69',['isVisible',['../classGVEditor_1_1Component.html#ad7b2631ffcdb8721d2f0ff1f208ab7a9',1,'GVEditor::Component']]],
-  ['itemkey_5ft_70',['itemKey_t',['../classGVEditor_1_1Menu.html#a9e210a8c1a04f096c975f997800a63f3',1,'GVEditor::Menu']]],
-  ['items_5ft_71',['items_t',['../classGVEditor_1_1Menu.html#a963de082bbb726544d8e0f32e57f8db7',1,'GVEditor::Menu']]]
+  ['horizontal_5flayout_2ehpp_68',['horizontal_layout.hpp',['../horizontal__layout_8hpp.html',1,'']]],
+  ['horizontallayout_69',['HorizontalLayout',['../classGVEditor_1_1HorizontalLayout.html',1,'GVEditor::HorizontalLayout'],['../classGVEditor_1_1HorizontalLayout.html#aead3cc1c29fe976ce4ff76c9f2d96ff1',1,'GVEditor::HorizontalLayout::HorizontalLayout()']]]
 ];

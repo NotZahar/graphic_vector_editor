@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['vertical_5flayout_2ehpp_217',['vertical_layout.hpp',['../vertical__layout_8hpp.html',1,'']]],
-  ['view_2ehpp_218',['view.hpp',['../view_8hpp.html',1,'']]]
+  ['title_5fhelper_2ehpp_277',['title_helper.hpp',['../title__helper_8hpp.html',1,'']]]
 ];

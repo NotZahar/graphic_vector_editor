@@ -1,9 +1,12 @@
 var searchData=
 [
-  ['main_78',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;main.cpp'],['../editor_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;editor.cpp']]],
-  ['main_2ecpp_79',['main.cpp',['../main_8cpp.html',1,'']]],
-  ['menu_80',['Menu',['../classGVEditor_1_1Menu.html',1,'GVEditor::Menu'],['../classGVEditor_1_1Menu.html#a698917f04624fcd0e39feb04a1fc2c5b',1,'GVEditor::Menu::Menu()=delete'],['../classGVEditor_1_1Menu.html#a07b06bbc2908d7e2e7aa59cbd146c510',1,'GVEditor::Menu::Menu(const items_t &amp;menuItems)']]],
-  ['menu_2ecpp_81',['menu.cpp',['../menu_8cpp.html',1,'']]],
-  ['menu_2ehpp_82',['menu.hpp',['../menu_8hpp.html',1,'']]],
-  ['menuitem_83',['menuItem',['../classGVEditor_1_1EditModel.html#a0072533b3eb919d44df706691ecc2d88',1,'GVEditor::EditModel::menuItem()'],['../classGVEditor_1_1InitModel.html#a4d44177408887667f9246b53e8a51d29',1,'GVEditor::InitModel::menuItem()']]]
+  ['label_91',['Label',['../classGVEditor_1_1Label.html',1,'GVEditor::Label'],['../classGVEditor_1_1Label.html#a4148c87b7ad2c0d2221641a57408ac1d',1,'GVEditor::Label::Label()=delete'],['../classGVEditor_1_1Label.html#a3596e935fab866ad34523baf5905d4b1',1,'GVEditor::Label::Label(const std::string &amp;label)']]],
+  ['label_2ecpp_92',['label.cpp',['../label_8cpp.html',1,'']]],
+  ['label_2ehpp_93',['label.hpp',['../label_8hpp.html',1,'']]],
+  ['layout_94',['Layout',['../classGVEditor_1_1Layout.html',1,'GVEditor::Layout'],['../classGVEditor_1_1Layout.html#adc8aec8eab769738673ebde98e15e024',1,'GVEditor::Layout::Layout()']]],
+  ['layout_2ecpp_95',['layout.cpp',['../layout_8cpp.html',1,'']]],
+  ['layout_2ehpp_96',['layout.hpp',['../layout_8hpp.html',1,'']]],
+  ['line_97',['Line',['../classGVEditor_1_1Line.html',1,'GVEditor::Line'],['../classGVEditor_1_1Line.html#a56a6f22b781f494c85ce5195c830e674',1,'GVEditor::Line::Line()=delete'],['../classGVEditor_1_1Line.html#ae6363eabf14408cbdb8e4c02d0acf889',1,'GVEditor::Line::Line(Point2 start, Point2 end)']]],
+  ['line_2ecpp_98',['line.cpp',['../line_8cpp.html',1,'']]],
+  ['line_2ehpp_99',['line.hpp',['../line_8hpp.html',1,'']]]
 ];

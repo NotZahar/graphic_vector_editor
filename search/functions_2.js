@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['editcontroller_230',['EditController',['../classGVEditor_1_1EditController.html#a6e8c4a7ed23a4ab13dcca56fa54bfed1',1,'GVEditor::EditController']]],
-  ['editmodel_231',['EditModel',['../classGVEditor_1_1EditModel.html#a193942f957f909853f3fa8168f9d18c1',1,'GVEditor::EditModel']]],
-  ['editstarted_232',['editStarted',['../classGVEditor_1_1InitController.html#a978dd08bd9bced1aa2adef2370d95309',1,'GVEditor::InitController']]],
-  ['editstate_233',['EditState',['../classGVEditor_1_1EditState.html#ab30e3ac4069b8b64d615b791b952baad',1,'GVEditor::EditState']]],
-  ['editview_234',['EditView',['../classGVEditor_1_1EditView.html#a310fa779cdbdf97482713d6b203f1d68',1,'GVEditor::EditView']]],
-  ['exitchosen_235',['exitChosen',['../classGVEditor_1_1EditController.html#ad4626f26ff2e687734457802c7a3077d',1,'GVEditor::EditController']]]
+  ['dline_293',['DLine',['../classGVEditor_1_1DLine.html#aedc5c725bfb81f27ef33b517623238ca',1,'GVEditor::DLine::DLine()=delete'],['../classGVEditor_1_1DLine.html#a5eb45288cc7aa6c42d2616062731dc6d',1,'GVEditor::DLine::DLine(std::shared_ptr&lt; Line &gt; line)']]],
+  ['dpolygon_294',['DPolygon',['../classGVEditor_1_1DPolygon.html#a7c87e1d7af97bce57adc77a9fa07c162',1,'GVEditor::DPolygon::DPolygon()=delete'],['../classGVEditor_1_1DPolygon.html#a7984ed5f21d6aa58d949d344e812f9ba',1,'GVEditor::DPolygon::DPolygon(std::shared_ptr&lt; Polygon &gt; line)']]],
+  ['draw_295',['draw',['../classGVEditor_1_1DLine.html#a3f1d0a868ab12085097f0f10801b63e2',1,'GVEditor::DLine::draw()'],['../classGVEditor_1_1DPolygon.html#a9a7244d85a9bf83f15a5ee56e736e2ab',1,'GVEditor::DPolygon::draw()'],['../classGVEditor_1_1DShape.html#a6ef02f580d96066b87ebeb1627c7f4b0',1,'GVEditor::DShape::draw() const =0']]],
+  ['dshape_296',['DShape',['../classGVEditor_1_1DShape.html#a69cfe839efe0b58000749efadfde55a6',1,'GVEditor::DShape::DShape()=delete'],['../classGVEditor_1_1DShape.html#ac5ddded03b23b2d9ddf0641f6ba31a2a',1,'GVEditor::DShape::DShape(std::shared_ptr&lt; Shape &gt; shape)']]]
 ];

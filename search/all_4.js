@@ -1,23 +1,13 @@
 var searchData=
 [
-  ['edit_19',['edit',['../namespaceGVEditor.html#a354850ebf71d72f84fe36f11a40f173fa02ee3395b615703461590b4ed283a4f4',1,'GVEditor']]],
-  ['edit_5fcontroller_2ecpp_20',['edit_controller.cpp',['../edit__controller_8cpp.html',1,'']]],
-  ['edit_5fcontroller_2ehpp_21',['edit_controller.hpp',['../edit__controller_8hpp.html',1,'']]],
-  ['edit_5fmodel_2ecpp_22',['edit_model.cpp',['../edit__model_8cpp.html',1,'']]],
-  ['edit_5fmodel_2ehpp_23',['edit_model.hpp',['../edit__model_8hpp.html',1,'']]],
-  ['edit_5fstate_2ecpp_24',['edit_state.cpp',['../edit__state_8cpp.html',1,'']]],
-  ['edit_5fstate_2ehpp_25',['edit_state.hpp',['../edit__state_8hpp.html',1,'']]],
-  ['edit_5fview_2ecpp_26',['edit_view.cpp',['../edit__view_8cpp.html',1,'']]],
-  ['edit_5fview_2ehpp_27',['edit_view.hpp',['../edit__view_8hpp.html',1,'']]],
-  ['editcontroller_28',['EditController',['../classGVEditor_1_1EditController.html#a6e8c4a7ed23a4ab13dcca56fa54bfed1',1,'GVEditor::EditController::EditController()'],['../classGVEditor_1_1EditController.html',1,'GVEditor::EditController']]],
-  ['editmodel_29',['EditModel',['../classGVEditor_1_1EditModel.html#a193942f957f909853f3fa8168f9d18c1',1,'GVEditor::EditModel::EditModel()'],['../classGVEditor_1_1EditModel.html',1,'GVEditor::EditModel']]],
-  ['editor_2ecpp_30',['editor.cpp',['../editor_8cpp.html',1,'']]],
-  ['editstarted_31',['editStarted',['../classGVEditor_1_1InitController.html#a978dd08bd9bced1aa2adef2370d95309',1,'GVEditor::InitController']]],
-  ['editstate_32',['EditState',['../classGVEditor_1_1EditState.html#ab30e3ac4069b8b64d615b791b952baad',1,'GVEditor::EditState::EditState()'],['../classGVEditor_1_1EditState.html',1,'GVEditor::EditState']]],
-  ['editview_33',['EditView',['../classGVEditor_1_1EditView.html#a310fa779cdbdf97482713d6b203f1d68',1,'GVEditor::EditView::EditView()'],['../classGVEditor_1_1EditView.html',1,'GVEditor::EditView']]],
-  ['exit_34',['exit',['../classGVEditor_1_1EditModel.html#a0072533b3eb919d44df706691ecc2d88ad836088cb718422be5bbaa66d2d0befa',1,'GVEditor::EditModel::exit()'],['../classGVEditor_1_1InitModel.html#a4d44177408887667f9246b53e8a51d29ad14cb0432d501f1cfda05a27f75245e5',1,'GVEditor::InitModel::exit()']]],
-  ['exitchosen_35',['exitChosen',['../classGVEditor_1_1EditController.html#ad4626f26ff2e687734457802c7a3077d',1,'GVEditor::EditController']]],
-  ['exitstr_36',['exitStr',['../structGVEditor_1_1TitleHelper.html#a75c075e2b164b093f5f19a3a169850c7',1,'GVEditor::TitleHelper']]],
-  ['exportdoc_37',['exportDoc',['../classGVEditor_1_1EditModel.html#a0072533b3eb919d44df706691ecc2d88aa42740a5905368547af830b571975d81',1,'GVEditor::EditModel::exportDoc()'],['../classGVEditor_1_1InitModel.html#a4d44177408887667f9246b53e8a51d29aec208084ef16db0f2b18b1a47014ca82',1,'GVEditor::InitModel::exportDoc()']]],
-  ['exportdocstr_38',['exportDocStr',['../structGVEditor_1_1TitleHelper.html#a70225c9f23e448fdd30a2cf4c24cb9f3',1,'GVEditor::TitleHelper']]]
+  ['dline_20',['DLine',['../classGVEditor_1_1DLine.html#a5eb45288cc7aa6c42d2616062731dc6d',1,'GVEditor::DLine::DLine(std::shared_ptr&lt; Line &gt; line)'],['../classGVEditor_1_1DLine.html#aedc5c725bfb81f27ef33b517623238ca',1,'GVEditor::DLine::DLine()=delete'],['../classGVEditor_1_1DLine.html',1,'GVEditor::DLine']]],
+  ['dline_2ecpp_21',['dline.cpp',['../dline_8cpp.html',1,'']]],
+  ['dline_2ehpp_22',['dline.hpp',['../dline_8hpp.html',1,'']]],
+  ['dpolygon_23',['DPolygon',['../classGVEditor_1_1DPolygon.html#a7984ed5f21d6aa58d949d344e812f9ba',1,'GVEditor::DPolygon::DPolygon(std::shared_ptr&lt; Polygon &gt; line)'],['../classGVEditor_1_1DPolygon.html#a7c87e1d7af97bce57adc77a9fa07c162',1,'GVEditor::DPolygon::DPolygon()=delete'],['../classGVEditor_1_1DPolygon.html',1,'GVEditor::DPolygon']]],
+  ['dpolygon_2ecpp_24',['dpolygon.cpp',['../dpolygon_8cpp.html',1,'']]],
+  ['dpolygon_2ehpp_25',['dpolygon.hpp',['../dpolygon_8hpp.html',1,'']]],
+  ['draw_26',['draw',['../classGVEditor_1_1DLine.html#a3f1d0a868ab12085097f0f10801b63e2',1,'GVEditor::DLine::draw()'],['../classGVEditor_1_1DPolygon.html#a9a7244d85a9bf83f15a5ee56e736e2ab',1,'GVEditor::DPolygon::draw()'],['../classGVEditor_1_1DShape.html#a6ef02f580d96066b87ebeb1627c7f4b0',1,'GVEditor::DShape::draw() const =0']]],
+  ['dshape_27',['DShape',['../classGVEditor_1_1DShape.html#a69cfe839efe0b58000749efadfde55a6',1,'GVEditor::DShape::DShape()=delete'],['../classGVEditor_1_1DShape.html#ac5ddded03b23b2d9ddf0641f6ba31a2a',1,'GVEditor::DShape::DShape(std::shared_ptr&lt; Shape &gt; shape)'],['../classGVEditor_1_1DShape.html',1,'GVEditor::DShape']]],
+  ['dshape_2ecpp_28',['dshape.cpp',['../dshape_8cpp.html',1,'']]],
+  ['dshape_2ehpp_29',['dshape.hpp',['../dshape_8hpp.html',1,'']]]
 ];

@@ -85,8 +85,8 @@ $(function() {
 <tr class="separator:a4b522c2a96c01c8621585b36663abe27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ecf11f0e826b01fc72daa4091d23b7d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1FileService.html#a7ecf11f0e826b01fc72daa4091d23b7d">byte_t</a> = char</td></tr>
 <tr class="separator:a7ecf11f0e826b01fc72daa4091d23b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf33d391f170bcdfb76f5f45ec50a470"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1FileService.html#abf33d391f170bcdfb76f5f45ec50a470">bytes_t</a> = std::basic_string&lt; char &gt;</td></tr>
-<tr class="separator:abf33d391f170bcdfb76f5f45ec50a470"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81452f63ebdc150f28d217da86e283c5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1FileService.html#a81452f63ebdc150f28d217da86e283c5">bytes_t</a> = std::basic_string_view&lt; char &gt;</td></tr>
+<tr class="separator:a81452f63ebdc150f28d217da86e283c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Открытые члены</h2></td></tr>
@@ -99,9 +99,9 @@ $(function() {
 Открытые статические члены</h2></td></tr>
 <tr class="memitem:a3a28bc122d13273ce9c6bd7dee092c22"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1FileService.html#a3a28bc122d13273ce9c6bd7dee092c22">createFile</a> (const <a class="el" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">path_t</a> &amp;folderPath, const std::string &amp;fileName)</td></tr>
 <tr class="separator:a3a28bc122d13273ce9c6bd7dee092c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd1fbb43f90eef9638044f2448d18707"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="classUtility_1_1FileService.html#abf33d391f170bcdfb76f5f45ec50a470">bytes_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1FileService.html#afd1fbb43f90eef9638044f2448d18707">readFromFile</a> (const <a class="el" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">path_t</a> &amp;filePath)</td></tr>
+<tr class="memitem:afd1fbb43f90eef9638044f2448d18707"><td class="memItemLeft" align="right" valign="top">static std::optional&lt; <a class="el" href="classUtility_1_1FileService.html#a81452f63ebdc150f28d217da86e283c5">bytes_t</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1FileService.html#afd1fbb43f90eef9638044f2448d18707">readFromFile</a> (const <a class="el" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">path_t</a> &amp;filePath)</td></tr>
 <tr class="separator:afd1fbb43f90eef9638044f2448d18707"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5cb5ca837ffa1ee48efa2c4ce511570"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1FileService.html#af5cb5ca837ffa1ee48efa2c4ce511570">writeToFile</a> (const <a class="el" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">path_t</a> &amp;filePath, const <a class="el" href="classUtility_1_1FileService.html#abf33d391f170bcdfb76f5f45ec50a470">bytes_t</a> &amp;bytes)</td></tr>
+<tr class="memitem:af5cb5ca837ffa1ee48efa2c4ce511570"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtility_1_1FileService.html#af5cb5ca837ffa1ee48efa2c4ce511570">writeToFile</a> (const <a class="el" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">path_t</a> &amp;filePath, const <a class="el" href="classUtility_1_1FileService.html#a81452f63ebdc150f28d217da86e283c5">bytes_t</a> &amp;bytes)</td></tr>
 <tr class="separator:af5cb5ca837ffa1ee48efa2c4ce511570"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Определения типов</h2>
@@ -119,14 +119,14 @@ $(function() {
 
 </div>
 </div>
-<a id="abf33d391f170bcdfb76f5f45ec50a470"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf33d391f170bcdfb76f5f45ec50a470">&#9670;&nbsp;</a></span>bytes_t</h2>
+<a id="a81452f63ebdc150f28d217da86e283c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81452f63ebdc150f28d217da86e283c5">&#9670;&nbsp;</a></span>bytes_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classUtility_1_1FileService.html#abf33d391f170bcdfb76f5f45ec50a470">Utility::FileService::bytes_t</a> =  std::basic_string&lt;char&gt;</td>
+          <td class="memname">using <a class="el" href="classUtility_1_1FileService.html#a81452f63ebdc150f28d217da86e283c5">Utility::FileService::bytes_t</a> =  std::basic_string_view&lt;char&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -245,7 +245,7 @@ $(function() {
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::optional&lt; <a class="el" href="classUtility_1_1FileService.html#abf33d391f170bcdfb76f5f45ec50a470">FileService::bytes_t</a> &gt; Utility::FileService::readFromFile </td>
+          <td class="memname">std::optional&lt; <a class="el" href="classUtility_1_1FileService.html#a81452f63ebdc150f28d217da86e283c5">FileService::bytes_t</a> &gt; Utility::FileService::readFromFile </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">path_t</a> &amp;&#160;</td>
           <td class="paramname"><em>filePath</em></td><td>)</td>
@@ -279,7 +279,7 @@ $(function() {
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classUtility_1_1FileService.html#abf33d391f170bcdfb76f5f45ec50a470">bytes_t</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classUtility_1_1FileService.html#a81452f63ebdc150f28d217da86e283c5">bytes_t</a> &amp;&#160;</td>
           <td class="paramname"><em>bytes</em>&#160;</td>
         </tr>
         <tr>

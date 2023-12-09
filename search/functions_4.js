@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['getcurrentstate_238',['getCurrentState',['../classUtility_1_1StateManager.html#a69de9d4e0a55c4377ff81bc210f3fe2a',1,'Utility::StateManager']]],
-  ['getlayout_239',['getLayout',['../classGVEditor_1_1Window.html#a479b2f38ad4e27bfb787f7f43f87d960',1,'GVEditor::Window']]],
-  ['getmenu_240',['getMenu',['../classGVEditor_1_1EditModel.html#a414c01bea157283fe78bd57530b2dfde',1,'GVEditor::EditModel::getMenu()'],['../classGVEditor_1_1InitModel.html#a12a40ef726ccca66f3e56c685f7e6069',1,'GVEditor::InitModel::getMenu()']]],
-  ['getstateid_241',['getStateId',['../classUtility_1_1State.html#ab44d43a34ad503a38f3cd95feac4801a',1,'Utility::State']]],
-  ['getwindowheight_242',['getWindowHeight',['../classGVEditor_1_1WindowModel.html#a0d37dbb44e4c806a32f8ea0bf0ccbeb2',1,'GVEditor::WindowModel']]],
-  ['getwindowwidth_243',['getWindowWidth',['../classGVEditor_1_1WindowModel.html#a35e4a3af46e6215d61d92d8077dd1dbd',1,'GVEditor::WindowModel']]]
+  ['fileservice_305',['FileService',['../classUtility_1_1FileService.html#add4f8c990f153a1a3b78fca2f43d2aad',1,'Utility::FileService']]],
+  ['finish_306',['finish',['../classUtility_1_1State.html#a55de2823655c2fb49df9b83f4185d394',1,'Utility::State::finish()'],['../classGVEditor_1_1EditState.html#a8f34a12c16d24110a2f4b8f7cdbe1294',1,'GVEditor::EditState::finish()'],['../classGVEditor_1_1InitState.html#abf392f0b03f47b63945eb6b9e2e49e31',1,'GVEditor::InitState::finish()']]]
 ];

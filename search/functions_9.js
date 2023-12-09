@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['oncancel_255',['onCancel',['../classGVEditor_1_1EditState.html#a3ef51aa2f79f801ba0f29a6eda9c0aa7',1,'GVEditor::EditState::onCancel()'],['../classGVEditor_1_1InitState.html#abd93d9baff0398abb1f5032af79dee56',1,'GVEditor::InitState::onCancel()'],['../namespaceGVEditor.html#a689d47a20c5b291cd8f2cef85aaff177',1,'GVEditor::onCancel()']]],
-  ['onchoicemade_256',['onChoiceMade',['../classGVEditor_1_1InitController.html#a32bf7b25543ab982efa2927539f86cc0',1,'GVEditor::InitController']]],
-  ['oneditstarted_257',['onEditStarted',['../classGVEditor_1_1InitState.html#a027f276c6819a39ebbfdd0e7e5afa1bf',1,'GVEditor::InitState']]],
-  ['onexitpressed_258',['onExitPressed',['../classGVEditor_1_1EditController.html#a979e0cada06fe6542b776eeba54f680a',1,'GVEditor::EditController']]],
-  ['operator_3d_259',['operator=',['../classUtility_1_1State.html#a3c88266eab0e7f76ca18530ab6dccb17',1,'Utility::State::operator=(State const &amp;)=delete'],['../classUtility_1_1State.html#a9cad481bf3e83c90df01be53efbe4557',1,'Utility::State::operator=(State &amp;&amp;)=delete'],['../classUtility_1_1StateManager.html#a60b16853f2b48d04119faee59c84000b',1,'Utility::StateManager::operator=(StateManager const &amp;)=delete'],['../classUtility_1_1StateManager.html#a105520539e2d9449d07608b84abdf0e0',1,'Utility::StateManager::operator=(StateManager &amp;&amp;)=delete'],['../classGVEditor_1_1View.html#a407a7dc7655d89a166d7ee459eeeeb0e',1,'GVEditor::View::operator=()']]]
+  ['main_329',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;main.cpp'],['../editor_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;editor.cpp']]],
+  ['menu_330',['Menu',['../classGVEditor_1_1Menu.html#a698917f04624fcd0e39feb04a1fc2c5b',1,'GVEditor::Menu::Menu()=delete'],['../classGVEditor_1_1Menu.html#a07b06bbc2908d7e2e7aa59cbd146c510',1,'GVEditor::Menu::Menu(const items_t &amp;menuItems)']]]
 ];

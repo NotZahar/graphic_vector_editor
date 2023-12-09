@@ -10,7 +10,7 @@ namespace Utility {
     public:
         using path_t = std::filesystem::path;
         using byte_t = char;
-        using bytes_t = std::basic_string<char>;
+        using bytes_t = std::basic_string_view<char>;
 
         FileService() = default;
         ~FileService() = default;

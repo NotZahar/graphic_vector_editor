@@ -46,6 +46,13 @@ target_sources(${PROJECT_NAME}
         # UI/views
         src/UI/views/init_view.cpp
         src/UI/views/edit_view.cpp
+
+        # shapes
+        src/shapes/line.cpp
+        src/shapes/polygon.cpp
+        src/shapes/drawable/dshape.cpp
+        src/shapes/drawable/dline.cpp
+        src/shapes/drawable/dpolygon.cpp
 )
 
 target_include_directories(${PROJECT_NAME} 

@@ -3,6 +3,7 @@
 namespace GVEditor {
     InitController::InitController()
     {
+        // _initView.setLayout(...);
         // connect(view, ..., this, ...)
         // impl
     }

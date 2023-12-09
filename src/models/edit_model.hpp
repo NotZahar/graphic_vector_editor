@@ -22,7 +22,6 @@ namespace GVEditor {
         };
         
         const std::map<menuItem, std::string>& getMenu() const;
-        
         void setMenu(const std::map<menuItem, std::string>& menu);
     
     private:

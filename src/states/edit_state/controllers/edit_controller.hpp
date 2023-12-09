@@ -9,6 +9,8 @@
 namespace GVEditor {
     class EditController {
     public:
+        using FileService = Utility::FileService;
+
         EditController();
         ~EditController() = default;
 
@@ -16,10 +18,15 @@ namespace GVEditor {
         void exitChosen() {}
 
     // private slots:
-        void onExitPressed() {/* impl */}
+        void onCreateDocChosen(FileService::path_t, std::string) { /*impl*/ };
+        void onImportDocChosen(FileService::path_t) { /*impl*/ };
+        void onExportDocChosen(FileService::path_t, FileService::bytes_t) { /*impl*/ };
+        void onCreateShapeChosen(DShape /* dshape */) { /*impl*/ };
+        void onRemoveShapeChosen(const int /* dshapeId */) { /*impl*/ };
+        void onExitDocChosen() { /*impl*/ };
 
     private:
-        std::unique_ptr<EditModel> _initModel;
+        std::unique_ptr<EditModel> _editModel;
         std::unique_ptr<EditView> _editView;
     };
 }

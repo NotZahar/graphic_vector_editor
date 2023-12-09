@@ -1,10 +1,6 @@
 #ifndef INIT_CONTROLLER_H
 #define INIT_CONTROLLER_H
 
-#include <memory>
-
-#include <files/file_service.hpp>
-
 #include "../../../models/init_model.hpp"
 #include "../../../UI/views/init_view.hpp"
 

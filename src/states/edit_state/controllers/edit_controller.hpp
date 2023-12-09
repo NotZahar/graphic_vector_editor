@@ -1,8 +1,6 @@
 #ifndef EDIT_CONTROLLER_H
 #define EDIT_CONTROLLER_H
 
-#include <memory>
-
 #include "../../../models/edit_model.hpp"
 #include "../../../UI/views/edit_view.hpp"
 
@@ -21,7 +19,7 @@ namespace GVEditor {
         void onCreateDocChosen(FileService::path_t, std::string) { /*impl*/ };
         void onImportDocChosen(FileService::path_t) { /*impl*/ };
         void onExportDocChosen(FileService::path_t, FileService::bytes_t) { /*impl*/ };
-        void onCreateShapeChosen(DShape /* dshape */) { /*impl*/ };
+        void onCreateShapeChosen(std::unique_ptr<DShape> /* dshape */) { /*impl*/ };
         void onRemoveShapeChosen(const int /* dshapeId */) { /*impl*/ };
         void onExitDocChosen() { /*impl*/ };
 

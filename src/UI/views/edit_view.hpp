@@ -24,7 +24,7 @@ namespace GVEditor {
         void createDocChosen(FileService::path_t, std::string) {};
         void importDocChosen(FileService::path_t) {};
         void exportDocChosen(FileService::path_t, FileService::bytes_t) {};
-        void createShapeChosen(DShape /* dshape */) {};
+        void createShapeChosen(std::unique_ptr<DShape> /* dshape */) {};
         void removeShapeChosen(const int /* dshapeId */) {};
         void exitDocChosen() {};
 

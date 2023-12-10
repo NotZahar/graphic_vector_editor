@@ -2,6 +2,7 @@
 
 #include "../state_helper.hpp"
 #include "states/state_manager.hpp"
+#include "../../data/storage.hpp"
 
 namespace GVEditor {
     InitState::InitState() 
@@ -20,11 +21,14 @@ namespace GVEditor {
         // impl
     }
 
-    void InitState::onEditStarted() {
+    void InitState::onEditStarted(Utility::FileService::path_t folderPath, std::string fileName, bool newDocFlag) {
+        Storage::instance().setCurrentFolderPath(folderPath);
+        Storage::instance().setCurrentFileName(fileName);
+        Storage::instance().setCurrentNewDocFlag(newDocFlag);
         Utility::StateManager::instance().setStateAsCurrent(GVEditor::state::edit);
     }
 
-    void onCancel() {
+    void InitState::onCancel() {
         Utility::StateManager::instance().setStateAsCurrent(GVEditor::state::cancel);
     }
 }

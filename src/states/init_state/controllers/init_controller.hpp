@@ -17,10 +17,9 @@ namespace GVEditor {
         void cancel() {}
 
     // private slots:
-        void onCreateDocChosen(FileService::path_t, std::string) { /*impl*/ }
-        void onImportDocChosen(FileService::path_t) { /*impl*/ }
-        void onExportDocChosen(FileService::path_t, FileService::bytes_t) { /*impl*/ }
-        void onExitDocChosen() { /*impl*/ }
+        void onCreateDocChosen(FileService::path_t /*folderPath*/, std::string /*fileName*/) { /*impl*/ }
+        void onImportDocChosen(FileService::path_t /*folderPath*/, std::string /*fileName*/) { /*impl*/ }
+        void onExitChosen() { /*impl*/ }
 
     private:
         std::unique_ptr<InitModel> _initModel;

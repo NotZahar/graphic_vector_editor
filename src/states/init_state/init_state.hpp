@@ -1,7 +1,7 @@
 #ifndef INIT_STATE_H
 #define INIT_STATE_H
 
-#include <states/state_manager.hpp>
+#include <states/state.hpp>
 
 #include "controllers/init_controller.hpp"
 
@@ -15,7 +15,7 @@ namespace GVEditor {
         void finish() noexcept override;
 
     // private slots:
-        void onEditStarted();
+        void onEditStarted(Utility::FileService::path_t /*folderPath*/, std::string /*fileName*/, bool /*newDocFlag*/);
         void onCancel();
 
     private:

@@ -20,11 +20,16 @@ namespace Utility {
         void setStateAsCurrent(const State::stateId_t stateId);
         State::stateId_t getCurrentState() const;
 
+    // signals:
+        void finish() {}
+
+    // public slots:
+        void onFinish();
+
     private:
         StateManager();
         ~StateManager() = default;
 
-    private:
         std::unordered_map<State::stateId_t, std::unique_ptr<State>> _states;
         State::stateId_t _currentStateId;
     };

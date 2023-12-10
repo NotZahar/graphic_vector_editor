@@ -22,7 +22,15 @@ namespace GVEditor {
         return _menu;
     }
 
+    std::shared_ptr<Document> EditModel::getDocument() {
+        return _document;
+    }
+
     void EditModel::setMenu(const std::map<menuItem, std::string>& menu) {
         _menu = menu;
+    }
+
+    void EditModel::setDocument(std::shared_ptr<Document> document) {
+        _document = document;
     }
 }

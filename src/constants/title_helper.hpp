@@ -5,12 +5,12 @@
 
 namespace GVEditor {
     struct TitleHelper {
-        static inline const std::string createDocStr = "Создать новый";
-        static inline const std::string importDocStr = "Импортировать из ...";
-        static inline const std::string exportDocStr = "Экспортировать в ...";
-        static inline const std::string createShapeStr = "Создать примтив";
-        static inline const std::string removeShapeStr = "Удалить примитив";
-        static inline const std::string exitStr = "Выход";
+        inline static const std::string createDocStr = "Создать новый";
+        inline static const std::string importDocStr = "Импортировать из ...";
+        inline static const std::string exportDocStr = "Экспортировать в ...";
+        inline static const std::string createShapeStr = "Создать примтив";
+        inline static const std::string removeShapeStr = "Удалить примитив";
+        inline static const std::string exitStr = "Выход";
     };
 } 
 

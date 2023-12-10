@@ -36,6 +36,9 @@ set(PUBLIC_HEADERS
     
     # files
     include/files/file_service.hpp
+
+    # random
+    include/random/random.hpp
 )
 
 set_target_properties(${PROJECT_NAME} PROPERTIES PUBLIC_HEADER "${PUBLIC_HEADERS}")

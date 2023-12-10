@@ -20,10 +20,9 @@ namespace GVEditor {
         void setMainLayout(std::shared_ptr<Layout> layout);
 
     // signals:
-        void createDocChosen(FileService::path_t, std::string) {};
-        void importDocChosen(FileService::path_t) {};
-        void exportDocChosen(FileService::path_t, FileService::bytes_t) {};
-        void exitDocChosen() {};
+        void createDocChosen(FileService::path_t /*folderPath*/, std::string /*fileName*/) {};
+        void importDocChosen(FileService::path_t /*folderPath*/, std::string /*fileName*/) {};
+        void exitChosen() {};
 
     private:
         std::unique_ptr<Window> _mainWindow;

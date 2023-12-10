@@ -10,7 +10,7 @@ namespace Utility {
     public:
         using path_t = std::filesystem::path;
         using byte_t = char;
-        using bytes_t = std::basic_string_view<char>;
+        using bytes_t = std::basic_string<char>;
 
         FileService() = default;
         ~FileService() = default;
@@ -18,6 +18,7 @@ namespace Utility {
         static bool createFile(const path_t& folderPath, const std::string& fileName);
         static std::optional<bytes_t> readFromFile(const path_t& filePath);
         static bool writeToFile(const path_t& filePath, const bytes_t& bytes);
+        static path_t makePath(const path_t& filePath, const std::string& fileName);
     };
 }
 

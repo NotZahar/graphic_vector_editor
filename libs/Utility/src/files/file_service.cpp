@@ -15,4 +15,9 @@ namespace Utility {
         // impl
         return true;
     }
+
+    FileService::path_t FileService::makePath(const path_t&, const std::string&) {
+        // impl
+        return {};
+    }
 }

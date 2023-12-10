@@ -18,10 +18,10 @@ namespace GVEditor {
     // private slots:
         void onCreateDocChosen(FileService::path_t, std::string) { /*impl*/ };
         void onImportDocChosen(FileService::path_t) { /*impl*/ };
-        void onExportDocChosen(FileService::path_t, FileService::bytes_t) { /*impl*/ };
-        void onCreateShapeChosen(std::unique_ptr<DShape> /* dshape */) { /*impl*/ };
-        void onRemoveShapeChosen(const int /* dshapeId */) { /*impl*/ };
-        void onExitDocChosen() { /*impl*/ };
+        void onExportDocChosen();
+        void onCreateShapeChosen(std::shared_ptr<Shape> shape, const int shapeId);
+        void onRemoveShapeChosen(const int /*shapeId*/) { /*impl*/ };
+        void onExitChosen() { /*impl*/ };
 
     private:
         std::unique_ptr<EditModel> _editModel;

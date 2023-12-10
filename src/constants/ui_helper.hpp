@@ -3,8 +3,8 @@
 
 namespace GVEditor {
     struct UIHelper {
-        static inline constexpr int windowWidth = 1280;
-        static inline constexpr int windowHeight = 720;
+        inline static constexpr int windowWidth = 1280;
+        inline static constexpr int windowHeight = 720;
     };
 } 
 

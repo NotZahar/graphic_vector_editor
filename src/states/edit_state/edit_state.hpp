@@ -1,7 +1,7 @@
 #ifndef EDIT_STATE_H
 #define EDIT_STATE_H
 
-#include <states/state_manager.hpp>
+#include <states/state.hpp>
 
 #include "controllers/edit_controller.hpp"
 

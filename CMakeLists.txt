@@ -20,14 +20,21 @@ add_executable(editor_tests
 target_sources(${PROJECT_NAME}
     PRIVATE
         src/main.cpp
+        src/app.cpp
         
+        # data
+        src/data/document.cpp
+        src/data/storage.cpp
+
         # states
         src/states/init_state/init_state.cpp
         src/states/edit_state/edit_state.cpp
+        src/states/exit_state/exit_state.cpp
 
         # controllers
         src/states/init_state/controllers/init_controller.cpp
         src/states/edit_state/controllers/edit_controller.cpp
+        src/states/exit_state/controllers/exit_controller.cpp
 
         # models
         src/models/window_model.cpp
@@ -53,6 +60,9 @@ target_sources(${PROJECT_NAME}
         src/shapes/drawable/dshape.cpp
         src/shapes/drawable/dline.cpp
         src/shapes/drawable/dpolygon.cpp
+
+        # serializers
+        src/serializers/document_serializer.cpp
 )
 
 target_include_directories(${PROJECT_NAME} 

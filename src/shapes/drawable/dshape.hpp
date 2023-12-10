@@ -14,13 +14,9 @@ namespace GVEditor {
     
         virtual void draw() const = 0;
         std::shared_ptr<Shape> getShape() const;
-        int getId() const;
-
-        inline static constexpr int INVALID_ID = -1;
 
     private:
         std::shared_ptr<Shape> _shape;
-        const int _id;
     };
 }
 

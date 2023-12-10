@@ -25,15 +25,19 @@ namespace Utility {
 
     void StateManager::setStateAsCurrent(const State::stateId_t stateId) {
         _states.at(_currentStateId)->finish();
-        if (!stateExists(stateId)) {
-            assert(true);
+        assert(stateExists(stateId));
+        if (!stateExists(stateId))
             return;
-        }
         _currentStateId = stateId;
         _states.at(_currentStateId)->start();
     }
 
     State::stateId_t StateManager::getCurrentState() const {
         return _currentStateId;
+    }
+
+    void StateManager::onFinish() {
+        // impl
+        // emit finish();
     }
 }

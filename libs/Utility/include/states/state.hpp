@@ -19,8 +19,7 @@ namespace Utility {
         virtual void finish() noexcept = 0;
         stateId_t getStateId() const;
 
-    public:
-        static inline constexpr State::stateId_t INVALID_STATE_ID = -1;
+        inline static constexpr State::stateId_t INVALID_STATE_ID = -1;
 
     private:
         const stateId_t _stateId;

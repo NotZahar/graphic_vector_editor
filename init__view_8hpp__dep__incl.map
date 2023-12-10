@@ -1,9 +1,13 @@
 <map id="src/UI/views/init_view.hpp" name="src/UI/views/init_view.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="233,5,424,32"/>
-<area shape="rect" id="node2" href="$init__controller_8hpp.html" title=" " alt="" coords="107,80,323,121"/>
-<area shape="rect" id="node7" href="$init__view_8cpp.html" title=" " alt="" coords="348,87,539,114"/>
-<area shape="rect" id="node3" href="$init__controller_8cpp.html" title=" " alt="" coords="5,169,220,211"/>
-<area shape="rect" id="node4" href="$init__state_8hpp.html" title=" " alt="" coords="244,169,395,211"/>
-<area shape="rect" id="node5" href="$main_8cpp.html" title=" " alt="" coords="191,266,296,293"/>
-<area shape="rect" id="node6" href="$init__state_8cpp.html" title=" " alt="" coords="320,259,471,300"/>
+<area shape="rect" id="node1" title=" " alt="" coords="455,5,646,32"/>
+<area shape="rect" id="node2" href="$exit__controller_8hpp.html" title=" " alt="" coords="198,80,418,121"/>
+<area shape="rect" id="node7" href="$init__controller_8hpp.html" title=" " alt="" coords="443,80,659,121"/>
+<area shape="rect" id="node11" href="$init__view_8cpp.html" title=" " alt="" coords="683,87,874,114"/>
+<area shape="rect" id="node3" href="$exit__controller_8cpp.html" title=" " alt="" coords="5,169,224,211"/>
+<area shape="rect" id="node4" href="$exit__state_8hpp.html" title=" " alt="" coords="248,169,403,211"/>
+<area shape="rect" id="node5" href="$app_8cpp.html" title=" " alt="" coords="487,266,583,293"/>
+<area shape="rect" id="node6" href="$exit__state_8cpp.html" title=" " alt="" coords="248,259,403,300"/>
+<area shape="rect" id="node8" href="$init__controller_8cpp.html" title=" " alt="" coords="427,169,642,211"/>
+<area shape="rect" id="node9" href="$init__state_8hpp.html" title=" " alt="" coords="666,169,817,211"/>
+<area shape="rect" id="node10" href="$init__state_8cpp.html" title=" " alt="" coords="666,259,817,300"/>
 </map>

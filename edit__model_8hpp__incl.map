@@ -1,6 +1,13 @@
 <map id="src/models/edit_model.hpp" name="src/models/edit_model.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="10,5,209,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="45,5,243,32"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,80,56,107"/>
-<area shape="rect" id="node3" title=" " alt="" coords="80,80,139,107"/>
-<area shape="rect" id="node4" href="$window__model_8hpp.html" title=" " alt="" coords="163,80,311,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="131,155,208,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="285,229,344,256"/>
+<area shape="rect" id="node5" href="$window__model_8hpp.html" title=" " alt="" coords="182,80,330,107"/>
+<area shape="rect" id="node6" href="$document_8hpp.html" title=" " alt="" coords="355,80,515,107"/>
+<area shape="rect" id="node7" title=" " alt="" coords="407,155,531,181"/>
+<area shape="rect" id="node8" href="$file__service_8hpp.html" title=" " alt="" coords="556,155,711,181"/>
+<area shape="rect" id="node11" href="$shape_8hpp.html" title=" " alt="" coords="233,155,383,181"/>
+<area shape="rect" id="node9" title=" " alt="" coords="649,229,724,256"/>
+<area shape="rect" id="node10" title=" " alt="" coords="535,229,625,256"/>
 </map>

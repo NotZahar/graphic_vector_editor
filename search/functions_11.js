@@ -1,29 +1,6 @@
 var searchData=
 [
-  ['_7ecanvas_366',['~Canvas',['../classGVEditor_1_1Canvas.html#ae90105845651710c578f08d81ae062dc',1,'GVEditor::Canvas']]],
-  ['_7ecomponent_367',['~Component',['../classGVEditor_1_1Component.html#ae8c02ad6441b3b46d6c0ba03d4386877',1,'GVEditor::Component']]],
-  ['_7edline_368',['~DLine',['../classGVEditor_1_1DLine.html#aec2ae6dc44af36d1c6dc19f77421e3d3',1,'GVEditor::DLine']]],
-  ['_7edpolygon_369',['~DPolygon',['../classGVEditor_1_1DPolygon.html#a7efb7a991312e8893e41b4295e713af5',1,'GVEditor::DPolygon']]],
-  ['_7edshape_370',['~DShape',['../classGVEditor_1_1DShape.html#a03c9fb29953117871daf7b211eee4fd2',1,'GVEditor::DShape']]],
-  ['_7eeditcontroller_371',['~EditController',['../classGVEditor_1_1EditController.html#acacc7f22a07632c3f3225b55b14fbdeb',1,'GVEditor::EditController']]],
-  ['_7eeditmodel_372',['~EditModel',['../classGVEditor_1_1EditModel.html#a09b370d8acc898bca0494147b9e529e7',1,'GVEditor::EditModel']]],
-  ['_7eeditstate_373',['~EditState',['../classGVEditor_1_1EditState.html#ac52c5fa46348d851aa6fa359be3bd432',1,'GVEditor::EditState']]],
-  ['_7eeditview_374',['~EditView',['../classGVEditor_1_1EditView.html#a561e398dad51bb0741e3c3c2d1de32a8',1,'GVEditor::EditView']]],
-  ['_7efileservice_375',['~FileService',['../classUtility_1_1FileService.html#a742adcd958e0f64097ad50fee00926fa',1,'Utility::FileService']]],
-  ['_7ehorizontallayout_376',['~HorizontalLayout',['../classGVEditor_1_1HorizontalLayout.html#a1d7db28c8478b90ba72598ec71f74192',1,'GVEditor::HorizontalLayout']]],
-  ['_7einitcontroller_377',['~InitController',['../classGVEditor_1_1InitController.html#a596e75ed052aed1027a6ba1b7416fa27',1,'GVEditor::InitController']]],
-  ['_7einitmodel_378',['~InitModel',['../classGVEditor_1_1InitModel.html#a0776c4923bbce3849b37e5279e38f070',1,'GVEditor::InitModel']]],
-  ['_7einitstate_379',['~InitState',['../classGVEditor_1_1InitState.html#a7098aa05e720793b1656b89cbc9e2154',1,'GVEditor::InitState']]],
-  ['_7einitview_380',['~InitView',['../classGVEditor_1_1InitView.html#a4d3dd32b637abd1e4c9aaf7fa3130a75',1,'GVEditor::InitView']]],
-  ['_7elabel_381',['~Label',['../classGVEditor_1_1Label.html#a12f945eb2b2f19b946486231c8b3bb36',1,'GVEditor::Label']]],
-  ['_7elayout_382',['~Layout',['../classGVEditor_1_1Layout.html#a2bbdf4401ab4021ca1a411ad9df4ace3',1,'GVEditor::Layout']]],
-  ['_7eline_383',['~Line',['../classGVEditor_1_1Line.html#afd894ae6596c796da2c44326865c0842',1,'GVEditor::Line']]],
-  ['_7emenu_384',['~Menu',['../classGVEditor_1_1Menu.html#ac14aaee36d76ca17003b28ab4d87ca2f',1,'GVEditor::Menu']]],
-  ['_7epolygon_385',['~Polygon',['../classGVEditor_1_1Polygon.html#a47662916ddd186e5da1b2e2e221ab882',1,'GVEditor::Polygon']]],
-  ['_7eshape_386',['~Shape',['../classGVEditor_1_1Shape.html#ac7c8bd39c8f9a4c1ca75cfe15ccb7e48',1,'GVEditor::Shape']]],
-  ['_7estate_387',['~State',['../classUtility_1_1State.html#a4f3e3ef306cb17100212f86c19e4675e',1,'Utility::State']]],
-  ['_7everticallayout_388',['~VerticalLayout',['../classGVEditor_1_1VerticalLayout.html#a1f79afafcd09da58aed388cdcd6dba27',1,'GVEditor::VerticalLayout']]],
-  ['_7eview_389',['~View',['../classGVEditor_1_1View.html#ab346c66ed8c7b85c32b1664f08492e9e',1,'GVEditor::View']]],
-  ['_7ewindow_390',['~Window',['../classGVEditor_1_1Window.html#a611475dd1bd5483a5bea2f5509c99a71',1,'GVEditor::Window']]],
-  ['_7ewindowmodel_391',['~WindowModel',['../classGVEditor_1_1WindowModel.html#a5aec092f832a5485bcbedd9a43bac486',1,'GVEditor::WindowModel']]]
+  ['window_467',['Window',['../classGVEditor_1_1Window.html#a0fbb9c80dea9f1568b1bb79ae0a9182a',1,'GVEditor::Window::Window()=delete'],['../classGVEditor_1_1Window.html#abdf176ce7feb3ea383d70c4764a10a68',1,'GVEditor::Window::Window(const int width, const int height)']]],
+  ['windowmodel_468',['WindowModel',['../classGVEditor_1_1WindowModel.html#ad1977b3c4daea27eb2ff229ea0eafbf1',1,'GVEditor::WindowModel::WindowModel()=delete'],['../classGVEditor_1_1WindowModel.html#a964ee806c4e7923608d88e685f1ea504',1,'GVEditor::WindowModel::WindowModel(int windowWidth, int windowHeight)']]],
+  ['writetofile_469',['writeToFile',['../classUtility_1_1FileService.html#af5cb5ca837ffa1ee48efa2c4ce511570',1,'Utility::FileService']]]
 ];

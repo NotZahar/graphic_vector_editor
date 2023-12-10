@@ -95,14 +95,14 @@ $(function() {
 <tr class="separator:a5242158f0719144699c0816f3fd453a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f88a8d8410dcbc59a8dc7e22bd16dc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGVEditor_1_1EditController.html#a4f88a8d8410dcbc59a8dc7e22bd16dc7">onImportDocChosen</a> (<a class="el" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">FileService::path_t</a>)</td></tr>
 <tr class="separator:a4f88a8d8410dcbc59a8dc7e22bd16dc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09734ecb5a3272bf91bf038e27d912e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGVEditor_1_1EditController.html#a09734ecb5a3272bf91bf038e27d912e4">onExportDocChosen</a> (<a class="el" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">FileService::path_t</a>, <a class="el" href="classUtility_1_1FileService.html#a81452f63ebdc150f28d217da86e283c5">FileService::bytes_t</a>)</td></tr>
-<tr class="separator:a09734ecb5a3272bf91bf038e27d912e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f36d487715c50ba3dc27a6c891c160a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGVEditor_1_1EditController.html#a5f36d487715c50ba3dc27a6c891c160a">onCreateShapeChosen</a> (std::unique_ptr&lt; <a class="el" href="classGVEditor_1_1DShape.html">DShape</a> &gt;)</td></tr>
-<tr class="separator:a5f36d487715c50ba3dc27a6c891c160a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea65a88def465d92f78639682db904ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGVEditor_1_1EditController.html#aea65a88def465d92f78639682db904ed">onExportDocChosen</a> ()</td></tr>
+<tr class="separator:aea65a88def465d92f78639682db904ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af003a6198c08d15c7152de722af054db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGVEditor_1_1EditController.html#af003a6198c08d15c7152de722af054db">onCreateShapeChosen</a> (std::shared_ptr&lt; <a class="el" href="classGVEditor_1_1Shape.html">Shape</a> &gt; shape, const int shapeId)</td></tr>
+<tr class="separator:af003a6198c08d15c7152de722af054db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14868ecc971f1c5fb660eff057b68d13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGVEditor_1_1EditController.html#a14868ecc971f1c5fb660eff057b68d13">onRemoveShapeChosen</a> (const int)</td></tr>
 <tr class="separator:a14868ecc971f1c5fb660eff057b68d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0059ba3de41308c5ced6293c7bf24d52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGVEditor_1_1EditController.html#a0059ba3de41308c5ced6293c7bf24d52">onExitDocChosen</a> ()</td></tr>
-<tr class="separator:a0059ba3de41308c5ced6293c7bf24d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80169c3e47617cac76d34dd4c651dc3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classGVEditor_1_1EditController.html#a80169c3e47617cac76d34dd4c651dc3e">onExitChosen</a> ()</td></tr>
+<tr class="separator:a80169c3e47617cac76d34dd4c651dc3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Определения типов</h2>
 <a id="adaba42ea38b1941936edfa70363f03e7"></a>
@@ -224,77 +224,23 @@ $(function() {
 
 </div>
 </div>
-<a id="a5f36d487715c50ba3dc27a6c891c160a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f36d487715c50ba3dc27a6c891c160a">&#9670;&nbsp;</a></span>onCreateShapeChosen()</h2>
+<a id="af003a6198c08d15c7152de722af054db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af003a6198c08d15c7152de722af054db">&#9670;&nbsp;</a></span>onCreateShapeChosen()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void GVEditor::EditController::onCreateShapeChosen </td>
           <td>(</td>
-          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classGVEditor_1_1DShape.html">DShape</a> &gt;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0059ba3de41308c5ced6293c7bf24d52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0059ba3de41308c5ced6293c7bf24d52">&#9670;&nbsp;</a></span>onExitDocChosen()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GVEditor::EditController::onExitDocChosen </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a09734ecb5a3272bf91bf038e27d912e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09734ecb5a3272bf91bf038e27d912e4">&#9670;&nbsp;</a></span>onExportDocChosen()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GVEditor::EditController::onExportDocChosen </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">FileService::path_t</a>&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classGVEditor_1_1Shape.html">Shape</a> &gt;&#160;</td>
+          <td class="paramname"><em>shape</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classUtility_1_1FileService.html#a81452f63ebdc150f28d217da86e283c5">FileService::bytes_t</a>&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>shapeId</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -302,11 +248,48 @@ $(function() {
           <td></td><td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80169c3e47617cac76d34dd4c651dc3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80169c3e47617cac76d34dd4c651dc3e">&#9670;&nbsp;</a></span>onExitChosen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GVEditor::EditController::onExitChosen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aea65a88def465d92f78639682db904ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea65a88def465d92f78639682db904ed">&#9670;&nbsp;</a></span>onExportDocChosen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GVEditor::EditController::onExportDocChosen </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

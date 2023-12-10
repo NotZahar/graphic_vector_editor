@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GVEditor: Исходный файл src/data/storage.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">GVEditor
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Макет графического векторного редактора</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_c1be8d27e7f84178e95f152701110b19.html">data</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">storage.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="storage_8hpp.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef STORAGE_H</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define STORAGE_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="file__service_8hpp.html">files/file_service.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceGVEditor.html">GVEditor</a> {</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="classGVEditor_1_1Storage.html">    7</a></span>&#160;    <span class="keyword">class </span><a class="code" href="classGVEditor_1_1Storage.html">Storage</a> final {</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="classGVEditor_1_1Storage.html#a44fc447b9b253df40cc7c57c1b1a2d44">    9</a></span>&#160;        <span class="keyword">using</span> <a class="code" href="classUtility_1_1FileService.html">FileService</a> = <a class="code" href="classUtility_1_1FileService.html">Utility::FileService</a>;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="classGVEditor_1_1Storage.html#a8e608df69f66bc9a6a922da9f74720cd">   11</a></span>&#160;        <a class="code" href="classGVEditor_1_1Storage.html#a8e608df69f66bc9a6a922da9f74720cd">Storage</a>(<span class="keyword">const</span> <a class="code" href="classGVEditor_1_1Storage.html">Storage</a>&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classGVEditor_1_1Storage.html#a2a15f502463f0515f5f21365d5e5e710">   12</a></span>&#160;        <a class="code" href="classGVEditor_1_1Storage.html#a2a15f502463f0515f5f21365d5e5e710">Storage</a>(<a class="code" href="classGVEditor_1_1Storage.html">Storage</a>&amp;&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classGVEditor_1_1Storage.html#a91e9c67ecf6967e59fccfcc288112c6f">   13</a></span>&#160;        <a class="code" href="classGVEditor_1_1Storage.html">Storage</a>&amp; <a class="code" href="classGVEditor_1_1Storage.html#a91e9c67ecf6967e59fccfcc288112c6f">operator=</a>(<a class="code" href="classGVEditor_1_1Storage.html">Storage</a> <span class="keyword">const</span>&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classGVEditor_1_1Storage.html#a58a8fb21ccdda74213d1c16680e4a471">   14</a></span>&#160;        <a class="code" href="classGVEditor_1_1Storage.html">Storage</a>&amp; <a class="code" href="classGVEditor_1_1Storage.html#a58a8fb21ccdda74213d1c16680e4a471">operator=</a>(<a class="code" href="classGVEditor_1_1Storage.html">Storage</a> &amp;&amp;) = <span class="keyword">delete</span>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keyword">static</span> <a class="code" href="classGVEditor_1_1Storage.html">Storage</a>&amp; <a class="code" href="classGVEditor_1_1Storage.html#a6d9be71f81a7e52184586113f5456f76">instance</a>();</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">FileService::path_t</a> <a class="code" href="classGVEditor_1_1Storage.html#a23e9fe8f9efd04f652997c736ef80a0c">getCurrentFolderPath</a>();</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        std::string <a class="code" href="classGVEditor_1_1Storage.html#a403ce7907a4bda4b85461914207aa280">getCurrentFileName</a>(); </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="classGVEditor_1_1Storage.html#a19fa59ed73ef866e1aaefbdd16f34ab5">getCurrentNewDocFlag</a>();</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGVEditor_1_1Storage.html#af82e978d964761923b936f883b61b66b">setCurrentFolderPath</a>(<span class="keyword">const</span> <a class="code" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">FileService::path_t</a>&amp; path);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGVEditor_1_1Storage.html#a4723d52d272375374275bbc502b8846f">setCurrentFileName</a>(<span class="keyword">const</span> std::string&amp; fileName); </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="classGVEditor_1_1Storage.html#a93dd6783b50071509191a8159254ccc0">setCurrentNewDocFlag</a>(<span class="keywordtype">bool</span> newDocFlag);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="classGVEditor_1_1Storage.html">Storage</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        ~<a class="code" href="classGVEditor_1_1Storage.html">Storage</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <a class="code" href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">FileService::path_t</a> _currentFolderPath;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        std::string _currentFileName; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordtype">bool</span> _currentNewDocFlag;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    };</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// STORAGE_H</span></div>
+<div class="ttc" id="aclassGVEditor_1_1Storage_html"><div class="ttname"><a href="classGVEditor_1_1Storage.html">GVEditor::Storage</a></div><div class="ttdef"><b>Definition:</b> storage.hpp:7</div></div>
+<div class="ttc" id="aclassGVEditor_1_1Storage_html_a19fa59ed73ef866e1aaefbdd16f34ab5"><div class="ttname"><a href="classGVEditor_1_1Storage.html#a19fa59ed73ef866e1aaefbdd16f34ab5">GVEditor::Storage::getCurrentNewDocFlag</a></div><div class="ttdeci">bool getCurrentNewDocFlag()</div><div class="ttdef"><b>Definition:</b> storage.cpp:19</div></div>
+<div class="ttc" id="aclassGVEditor_1_1Storage_html_a23e9fe8f9efd04f652997c736ef80a0c"><div class="ttname"><a href="classGVEditor_1_1Storage.html#a23e9fe8f9efd04f652997c736ef80a0c">GVEditor::Storage::getCurrentFolderPath</a></div><div class="ttdeci">FileService::path_t getCurrentFolderPath()</div><div class="ttdef"><b>Definition:</b> storage.cpp:11</div></div>
+<div class="ttc" id="aclassGVEditor_1_1Storage_html_a2a15f502463f0515f5f21365d5e5e710"><div class="ttname"><a href="classGVEditor_1_1Storage.html#a2a15f502463f0515f5f21365d5e5e710">GVEditor::Storage::Storage</a></div><div class="ttdeci">Storage(Storage &amp;&amp;)=delete</div></div>
+<div class="ttc" id="aclassGVEditor_1_1Storage_html_a403ce7907a4bda4b85461914207aa280"><div class="ttname"><a href="classGVEditor_1_1Storage.html#a403ce7907a4bda4b85461914207aa280">GVEditor::Storage::getCurrentFileName</a></div><div class="ttdeci">std::string getCurrentFileName()</div><div class="ttdef"><b>Definition:</b> storage.cpp:15</div></div>
+<div class="ttc" id="aclassGVEditor_1_1Storage_html_a4723d52d272375374275bbc502b8846f"><div class="ttname"><a href="classGVEditor_1_1Storage.html#a4723d52d272375374275bbc502b8846f">GVEditor::Storage::setCurrentFileName</a></div><div class="ttdeci">void setCurrentFileName(const std::string &amp;fileName)</div><div class="ttdef"><b>Definition:</b> storage.cpp:27</div></div>
+<div class="ttc" id="aclassGVEditor_1_1Storage_html_a58a8fb21ccdda74213d1c16680e4a471"><div class="ttname"><a href="classGVEditor_1_1Storage.html#a58a8fb21ccdda74213d1c16680e4a471">GVEditor::Storage::operator=</a></div><div class="ttdeci">Storage &amp; operator=(Storage &amp;&amp;)=delete</div></div>
+<div class="ttc" id="aclassGVEditor_1_1Storage_html_a6d9be71f81a7e52184586113f5456f76"><div class="ttname"><a href="classGVEditor_1_1Storage.html#a6d9be71f81a7e52184586113f5456f76">GVEditor::Storage::instance</a></div><div class="ttdeci">static Storage &amp; instance()</div><div class="ttdef"><b>Definition:</b> storage.cpp:6</div></div>
+<div class="ttc" id="aclassGVEditor_1_1Storage_html_a8e608df69f66bc9a6a922da9f74720cd"><div class="ttname"><a href="classGVEditor_1_1Storage.html#a8e608df69f66bc9a6a922da9f74720cd">GVEditor::Storage::Storage</a></div><div class="ttdeci">Storage(const Storage &amp;)=delete</div></div>
+<div class="ttc" id="aclassGVEditor_1_1Storage_html_a91e9c67ecf6967e59fccfcc288112c6f"><div class="ttname"><a href="classGVEditor_1_1Storage.html#a91e9c67ecf6967e59fccfcc288112c6f">GVEditor::Storage::operator=</a></div><div class="ttdeci">Storage &amp; operator=(Storage const &amp;)=delete</div></div>
+<div class="ttc" id="aclassGVEditor_1_1Storage_html_a93dd6783b50071509191a8159254ccc0"><div class="ttname"><a href="classGVEditor_1_1Storage.html#a93dd6783b50071509191a8159254ccc0">GVEditor::Storage::setCurrentNewDocFlag</a></div><div class="ttdeci">void setCurrentNewDocFlag(bool newDocFlag)</div><div class="ttdef"><b>Definition:</b> storage.cpp:31</div></div>
+<div class="ttc" id="aclassGVEditor_1_1Storage_html_af82e978d964761923b936f883b61b66b"><div class="ttname"><a href="classGVEditor_1_1Storage.html#af82e978d964761923b936f883b61b66b">GVEditor::Storage::setCurrentFolderPath</a></div><div class="ttdeci">void setCurrentFolderPath(const FileService::path_t &amp;path)</div><div class="ttdef"><b>Definition:</b> storage.cpp:23</div></div>
+<div class="ttc" id="aclassUtility_1_1FileService_html"><div class="ttname"><a href="classUtility_1_1FileService.html">Utility::FileService</a></div><div class="ttdef"><b>Definition:</b> file_service.hpp:9</div></div>
+<div class="ttc" id="aclassUtility_1_1FileService_html_a4b522c2a96c01c8621585b36663abe27"><div class="ttname"><a href="classUtility_1_1FileService.html#a4b522c2a96c01c8621585b36663abe27">Utility::FileService::path_t</a></div><div class="ttdeci">std::filesystem::path path_t</div><div class="ttdef"><b>Definition:</b> file_service.hpp:11</div></div>
+<div class="ttc" id="afile__service_8hpp_html"><div class="ttname"><a href="file__service_8hpp.html">file_service.hpp</a></div></div>
+<div class="ttc" id="anamespaceGVEditor_html"><div class="ttname"><a href="namespaceGVEditor.html">GVEditor</a></div><div class="ttdef"><b>Definition:</b> app.cpp:10</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

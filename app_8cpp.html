@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>GVEditor: Файл src/app.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">GVEditor
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Макет графического векторного редактора</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#namespaces">Пространства имен</a>  </div>
+  <div class="headertitle">
+<div class="title">Файл app.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="app_8hpp_source.html">app.hpp</a>&quot;</code><br />
+<code>#include &lt;<a class="el" href="state__manager_8hpp_source.html">states/state_manager.hpp</a>&gt;</code><br />
+<code>#include &quot;<a class="el" href="init__state_8hpp_source.html">states/init_state/init_state.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="edit__state_8hpp_source.html">states/edit_state/edit_state.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="exit__state_8hpp_source.html">states/exit_state/exit_state.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="state__helper_8hpp_source.html">states/state_helper.hpp</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Граф включаемых заголовочных файлов для app.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="app_8cpp__incl.png" border="0" usemap="#asrc_2app_8cpp" alt=""/></div>
+<map name="asrc_2app_8cpp" id="asrc_2app_8cpp">
+<area shape="rect" title=" " alt="" coords="688,5,784,32"/>
+<area shape="rect" href="app_8hpp.html" title=" " alt="" coords="286,87,360,114"/>
+<area shape="rect" href="state__manager_8hpp.html" title=" " alt="" coords="1332,87,1522,114"/>
+<area shape="rect" href="init__state_8hpp.html" title=" " alt="" coords="384,80,536,121"/>
+<area shape="rect" href="edit__state_8hpp.html" title=" " alt="" coords="944,80,1104,121"/>
+<area shape="rect" href="exit__state_8hpp.html" title=" " alt="" coords="560,80,720,121"/>
+<area shape="rect" href="state__helper_8hpp.html" title=" " alt="" coords="745,87,920,114"/>
+<area shape="rect" title=" " alt="" coords="895,497,972,524"/>
+<area shape="rect" title=" " alt="" coords="1410,423,1534,449"/>
+<area shape="rect" href="state_8hpp.html" title=" " alt="" coords="791,169,874,196"/>
+<area shape="rect" href="init__controller_8hpp.html" title=" " alt="" coords="296,169,508,196"/>
+<area shape="rect" href="init__model_8hpp.html" title=" " alt="" coords="78,244,208,285"/>
+<area shape="rect" href="init__view_8hpp.html" title=" " alt="" coords="571,244,710,285"/>
+<area shape="rect" title=" " alt="" coords="226,497,276,524"/>
+<area shape="rect" title=" " alt="" coords="311,497,370,524"/>
+<area shape="rect" href="window__model_8hpp.html" title=" " alt="" coords="69,341,217,367"/>
+<area shape="rect" href="file__service_8hpp.html" title=" " alt="" coords="666,423,820,449"/>
+<area shape="rect" href="view_8hpp.html" title=" " alt="" coords="839,341,919,367"/>
+<area shape="rect" href="window_8hpp.html" title=" " alt="" coords="704,341,814,367"/>
+<area shape="rect" href="menu_8hpp.html" title=" " alt="" coords="344,341,526,367"/>
+<area shape="rect" title=" " alt="" coords="640,497,715,524"/>
+<area shape="rect" title=" " alt="" coords="739,497,830,524"/>
+<area shape="rect" href="layout_8hpp.html" title=" " alt="" coords="500,423,591,449"/>
+<area shape="rect" href="component_8hpp.html" title=" " alt="" coords="428,497,551,524"/>
+<area shape="rect" href="label_8hpp.html" title=" " alt="" coords="394,423,476,449"/>
+<area shape="rect" href="edit__controller_8hpp.html" title=" " alt="" coords="907,169,1123,196"/>
+<area shape="rect" href="edit__model_8hpp.html" title=" " alt="" coords="325,244,460,285"/>
+<area shape="rect" href="edit__view_8hpp.html" title=" " alt="" coords="944,244,1086,285"/>
+<area shape="rect" href="document_8hpp.html" title=" " alt="" coords="994,341,1154,367"/>
+<area shape="rect" href="shape_8hpp.html" title=" " alt="" coords="1016,423,1166,449"/>
+<area shape="rect" href="dshape_8hpp.html" title=" " alt="" coords="1178,333,1334,375"/>
+<area shape="rect" href="dshape__helper_8hpp.html" title=" " alt="" coords="1461,333,1617,375"/>
+<area shape="rect" href="exit__controller_8hpp.html" title=" " alt="" coords="532,169,748,196"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Пространства имен</h2></td></tr>
+<tr class="memitem:namespaceGVEditor"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceGVEditor.html">GVEditor</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

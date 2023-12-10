@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ui_5fhelper_2ehpp_279',['ui_helper.hpp',['../ui__helper_8hpp.html',1,'']]]
+  ['title_5fhelper_2ehpp_353',['title_helper.hpp',['../title__helper_8hpp.html',1,'']]]
 ];
